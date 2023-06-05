@@ -1,9 +1,9 @@
-import Bmi from "../assets/bmi.jpg";
+import Bmi from "../assets/bmi.png";
 
 export const ProjectList = [
     {
         name: "Bmi Calculator",
-        image: "Bmi",
+        image: Bmi,
         skills:"JavaScript, HTML, CSS",
     },
 ];

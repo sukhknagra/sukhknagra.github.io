@@ -1,6 +1,6 @@
 import React from "react";
+import {useNavigate} from 'react-router-dom';
 
-import { useNavigate } from "react-router-dom";
 
 function ProjectItem({image, name, id}) {
     const navigate = useNavigate();

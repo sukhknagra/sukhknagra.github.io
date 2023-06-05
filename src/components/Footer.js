@@ -15,6 +15,7 @@ function Footer() {
         </div>
         <p>&copy; 2023 Portfolio</p>
 
-     </div> );
+     </div>
+      );
 }
 export default Footer;
