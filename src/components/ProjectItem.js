@@ -1,9 +1,8 @@
 import React from "react";
-import {useNavigate} from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
-
-function ProjectItem({image, name, id}) {
-    const navigate = useNavigate();
+function ProjectItem({ image, name, id }) {
+  const navigate = useNavigate();
   return (
     <div
       className="projectItem"
@@ -11,12 +10,10 @@ function ProjectItem({image, name, id}) {
         navigate("/project/" + id);
       }}
     >
-<div style={{backgroundImage: 'url(${image})'}} className="bgImage"/>
-<h1> {name}
-
-</h1>
-
+      <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
+      <h1> {name} </h1>
     </div>
   );
 }
+
 export default ProjectItem;
