@@ -10,18 +10,20 @@ function Home() {
                 <h2> Hi, My Name is Sukhjinder Kaur</h2> <br/> <br/>
                 <div className='prompt'>
                     <p> A sotware developer with a passion for learning and creating.</p>
-                    <LinkedInIcon/>
+                    <a href='https://www.linkedin.com/in/sukh-nagra-b72342272/' target="_blank" rel=""> 
+                    <LinkedInIcon/> </a> 
                     <EmailIcon/>
-                    <GithubIcon/>
-                    </div> </div>
-        <div className='skills'> 
-        <h1>Skills</h1>
-        <ol className='list'>
-            <li className='item'>
+                    <a href='https://github.com/sukhknagra' target="_blank" rel=""><GithubIcon/></a>
+                    </div>
+                     </div>
+             <div className='skills'> 
+             <h1>Skills</h1>
+              <ol className='list'>
+             <li className='item'>
                 <h2> Front-End</h2>
                 <span> HTML, CSS, React</span>
-            </li>
-            <li className='item'>
+             </li>
+             <li className='item'>
                 <h2> Back-End</h2>
                 <span> My Sql, NodeJS</span>
             </li>
@@ -30,9 +32,9 @@ function Home() {
                 <span>JavaScript, PHP </span>
             </li>
 
-        </ol>
-        </div>
-        </div>
-    )
+          </ol>
+          </div>
+          </div>
+    );
 }
 export default Home;

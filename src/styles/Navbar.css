@@ -1,7 +1,13 @@
+.navbar {
+  border-bottom:  1px solid white;
+  
+}
+
 .navbar{
     width: 100%;
     height: 100px;
     background:#21325e;
+    
 }
 .links{
     width:100%;
@@ -17,8 +23,12 @@
         color:white;
         text-decoration: none;
         margin: 20px;
-        font: size 25px;
+        font: size 40px;
 
+    }
+    .navbar a:hover {
+     color: yellow;
+     background-color: rgb(2, 16, 16);
     }
     .toggleButton {
         width: 100%;
