@@ -1,0 +1,1395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0064)https://www.freelogoservices.com/diy-logo-packages?lid=946823378 -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr" class="js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>#onetrust-consent-sdk * {font-size: 100% !important;}#ot-sdk-btn.ot-sdk-show-settings, #ot-sdk-btn.optanon-show-settings, #ot-sdk-btn.ot-sdk-show-settings:hover, #ot-sdk-btn.optanon-show-settings:hover {background: #fff !important;border: 1px solid #005596 !important;color: #005596 !important;font-size: 1.2rem !important;}</style>  <!-- OneTrust Cookies Consent Notice start -->
+    <script type="text/javascript" async="" src="./logo_files/js"></script><script type="text/javascript" async="" src="./logo_files/analytics.js.download"></script><script async="" src="./logo_files/clarity.js.download"></script><script src="./logo_files/bat.js.download" async=""></script><script type="text/javascript" async="" src="./logo_files/destination"></script><script async="" src="./logo_files/h2b5ctk14y"></script><script async="" src="./logo_files/gtm.js.download"></script><script defer="" src="./logo_files/otSDKStub.js.download" type="text/javascript" charset="UTF-8" data-domain-script="eaa30b1d-900a-42c4-b33a-12e3be30b40e"></script>
+    <script type="text/javascript">
+    var fls_onetrust_optanon_wrapper_executed=0;
+    function OptanonWrapper() {
+        fls_onetrust_optanon_wrapper_executed=1;
+        setTimeout(function(){fls_process_dataLayer_events();}, 1500);
+        if (Drupal.settings.optanon_cookies_settings_us) {
+            if ($("#onetrust-banner-sdk").length == 0 && $.cookie("OptanonAlertBoxClosed") == null) {
+                $("#ot-sdk-btn").hide();
+            }
+        }
+    }
+    </script>
+    <!-- OneTrust Cookies Consent Notice end -->  
+        
+    <script>
+    var dataLayer=dataLayer || [];
+    var dataLayerAfterLoad=dataLayerAfterLoad || [];
+    var dataLayerAfterOnetrustLoadedFlag = 0;
+    var dataLayerContainPurchase = 0;
+    var fls_process_dataLayer_events_count = 0;
+    function fls_process_dataLayer_events(){
+        fls_process_dataLayer_events_count++;
+        if (typeof dataLayer != 'undefined') {
+            var fls_ga4_debug = 0;
+            if (typeof Drupal != 'undefined' && typeof Drupal.settings != 'undefined' && typeof Drupal.settings.fls_ga4_debug != 'undefined') fls_ga4_debug = 1;
+            var onetrustLoaded = 0;
+            //var gtmLoaded = 0;
+            var pageTypeLoaded = 0;
+            for (var i in dataLayer) {
+                if (typeof dataLayer[i]['event'] != 'undefined') {
+                    if (dataLayer[i]['event'] == 'OneTrustLoaded') onetrustLoaded = 1;
+                    //if (dataLayer[i]['event'] == 'gtm.load') gtmLoaded = 1;
+                }
+                if (typeof dataLayer[i]['pageType'] != 'undefined' && typeof dataLayer[i]['userCategory'] != 'undefined') {
+                    pageTypeLoaded = 1;
+                }
+            }
+            if (!onetrustLoaded) {
+                if (fls_ga4_debug) {
+                    console.log('retry fls_process_dataLayer_events');
+                }
+                setTimeout(function(){fls_process_dataLayer_events()}, 500);
+                return false;
+            }
+            
+            dataLayerAfterOnetrustLoadedFlag = 1;
+            if (typeof dataLayerAfterLoad != 'undefined' && dataLayerAfterLoad.length > 0) {
+                for (var j in dataLayerAfterLoad) {
+                    fls_ga4_dataLayer_push(dataLayerAfterLoad[j]);
+                    if (typeof dataLayerAfterLoad[j]['event'] != 'undefined' && dataLayerAfterLoad[j]['event'] == 'purchase') {
+                        dataLayerContainPurchase = 1;
+                    }
+                }
+                dataLayerAfterLoad = [];
+                if (dataLayerContainPurchase) fls_ga4_purchase_debug_send_ajax(dataLayer, [], dataLayerAfterLoad, ' dataLayerAfterQueueProcessed');
+            }
+        }
+    }
+    function gtag(){dataLayer.push(arguments);}
+    gtag('get', 'G-GRW8NC56YW', 'client_id', (clientID) => {
+      if (typeof clientID != 'undefined' && typeof fls_events_add == 'function' && typeof Drupal.settings.google_client_id != 'undefined' && Drupal.settings.google_client_id != clientID) {
+        fls_events_add('google_client_id', clientID);
+      }
+    });
+    function fls_ga4_dataLayer_push(dataObj){
+        if (!dataLayerAfterOnetrustLoadedFlag && typeof dataObj['pageType'] == 'undefined') {
+            dataLayerAfterLoad.push(dataObj);
+            return false;
+        }
+        var fls_ga4_debug = 0;
+        if (typeof Drupal != 'undefined' && typeof Drupal.settings != 'undefined' && typeof Drupal.settings.fls_ga4_debug != 'undefined') fls_ga4_debug = 1;
+        if (fls_ga4_debug) {
+            console.log('dataLayer before push:');
+            console.log(JSON.stringify(dataLayer));
+            localStorage.setItem('ga4_debug_datalayer_before_push', JSON.stringify(dataLayer));
+        }
+        dataLayer.push(dataObj);
+        if (fls_ga4_debug) {
+            console.log('dataLayer after push:');
+            localStorage.setItem('ga4_debug_datalayer_after_push', JSON.stringify(dataLayer));
+            console.log(JSON.stringify(dataLayer));
+        }
+    } </script>    
+    <script type="text/javascript">
+    fls_ga4_dataLayer_push({
+"pageType": "diy-logo-packages" ,
+"pageName":"DIY Logo Packages | FreeLogoServices",
+"userStatus"  :  "Logged-in",
+"userId": "683466163",
+"userCategory" : "New User","splits" : []
+}); </script>
+<script type="text/javascript">
+        fls_ga4_dataLayer_push({
+'event': 'accountRegistration',
+'pageType': 'step4' ,
+'pageName':'Step 4 of 4: Save logo | FreeLogoServices',
+'userId': '683466163', //A unicode or User CRM ID
+'userStatus'  :  'Logged-in',
+'userCategory' : 'New User'
+})</script><!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5FGVZKZ');</script>
+    <!-- End Google Tag Manager --><!-- OneTrust Cookies Consent Notice end for freelogoservices.com -->
+     
+<script>
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "h2b5ctk14y");
+</script>
+     
+       
+
+   
+               <meta name="robots" content="nofollow">
+          
+    
+                <meta name="robots" content="noindex">
+    
+                
+
+  
+<meta name="description" content="Design a logo for your business in minutes!">
+<meta property="og:description" content="Design a logo for your business in minutes!">
+  <meta name="google-site-verification" content="fh0U5ua3fvXvMyC2XkDipVsBWeOfgVsNIjlYnhcdLNo">
+  <title>DIY Logo Packages | FreeLogoServices</title>
+    <link rel="preload" href="https://www.freelogoservices.com/sites/all/themes/freelogoservices/Material-Icons-Regularv4.woff2" crossorigin="anonymous" as="font" type="font/woff2">
+  <meta property="og:title" content="DIY Logo Packages | FreeLogoServices">
+  <meta property="og:image" content="https://fls_archive.s3.amazonaws.com/whitelabels/1582032905_FLS-Logo-On-Site_wl.png">
+
+    <link rel="apple-touch-icon" href="https://freelogo-assets.s3.amazonaws.com/sites/all/themes/freelogoservices/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="https://freelogo-assets.s3.amazonaws.com/sites/all/themes/freelogoservices/images/apple-touch-icon.png">
+  <meta name="msapplication-config" content="none">
+  
+  <link type="text/css" rel="stylesheet" media="all" href="./logo_files/css_a0a7cabe6650017fd1284448ef44b47e.css">
+<link type="text/css" rel="stylesheet" media="" href="./logo_files/css_506a2173963b49bf48e6649649f50eb4.css">
+<link type="text/css" rel="stylesheet" media="print" href="./logo_files/css_17ccdac4bf1924b25c0ef4484efb5903.css">
+<link type="text/css" rel="stylesheet" media="" href="./logo_files/jquery-ui.1.12.1.min.css">
+  <!--[if IE 6]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/freelogoservices/fix-ie6.css" />    <![endif]-->
+  <!--[if IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/freelogoservices/fix-ie7.css" />    <![endif]-->
+  <!--[if IE 8]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/freelogoservices/fix-ie8.css" />    <![endif]-->
+    <!--[if IE 9]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/freelogoservices/fix-ie9.css" />    <![endif]-->
+  <script type="text/javascript" src="./logo_files/js_145f05b1bef64621a429157a9a181bff.jsmin.js.download"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "block_edit": { "hover_links": 0 }, "thickbox": { "close": "Close X", "next": "Next \u003e", "prev": "\u003c Prev", "esc_key": "or Esc Key", "next_close": "Next / Close on last", "image_count": "Image !current of !total" }, "pgtmstmp": "g3ikjlNKKZRL+mqofgjggQ==", "is_flstheme": true, "lightbox_loading_text": "Loading", "STOREID": 1, "fls_device_type": "desktop", "current_currency_code": "AUD", "current_country_code": "AU", "optanon_cookies_settings_us": 1, "apparel_product_list": [ 580, 588, 587, 584, 582, 589, 585, 20, 590, 595, 596, 598 ], "leave_page_message": "You have attempted to exit this page. The design you are working on will be lost. Are you sure you want to lose your design?", "leave_page_message_step4": "You have attempted to exit this page. The design you see on this page will not be saved unless you create an account. Are you sure you lose your design?", "google_client_id": "2008910253.1687142608", "fls_onetrust_location": "AU,QLD", "ga_status": 1, "please_fill_in": "Please fill out this field", "fls_ga4_data": { "userId": "683466163", "userStatus": "Logged-in", "userCategory": "Returning User", "currencyCode": "AUD" }, "default_domain_product": 463, "popunder_flash_object_location": "https://www.freelogoservices.com/sites/default/modules/step4/popunder_js.swf", "popunder_close_location": "https%3A%2F%2Fwww.freelogoservices.com%2Fstep4%3Fclose%3D1", "lang": "", "baseUrl": "https://www.freelogoservices.com", "snapengage_init_name": "nagra_sukhjinder@yahoo.com", "snapengage_init_data": { "initDropdown": "I need help with:", "questions": { "Select Your Problem": "Select Your Problem", "Logo - Changes to my Logo": "Logo - Changes to my Logo", "Logo - Purchase Receipt": "Logo - Purchase Receipt", "Logo - Trouble Purchasing": "Logo - Trouble Purchasing", "Logo - My Password": "Logo - My Password", "Logo - Problem with Logo Design Tool": "Logo - Problem with Logo Design Tool", "Logo - Problem with Site": "Logo - Problem with Site", "Logo - Copyright/Trademark": "Logo - Copyright/Trademark", "Logo - Logo Files": "Logo - Logo Files", "Logo - Unsubscribe from Emails": "Logo - Unsubscribe from Emails", "Logo - Can’t Download Files": "Logo - Can’t Download Files", "Logo - Facebook/Twitter Files": "Logo - Facebook/Twitter Files", "Logo - Other": "Logo - Other", "Business Card - Changes to my Business Card": "Business Card - Changes to my Business Card", "Business Card - Purchase Receipt": "Business Card - Purchase Receipt", "Business Card - Trouble Purchasing": "Business Card - Trouble Purchasing", "Business Card - My Password": "Business Card - My Password", "Business Card - Delivery Status": "Business Card - Delivery Status", "Business Card - Problem with Business Card Design Tool": "Business Card - Problem with Business Card Design Tool", "Business Card - Problem with Site": "Business Card - Problem with Site", "Business Card - Business Card Files": "Business Card - Business Card Files", "Business Card - Unsubscribe from Emails": "Business Card - Unsubscribe from Emails", "Business Card - Can’t Download Files": "Business Card - Can’t Download Files", "Business Card - Other": "Business Card - Other" }, "language_code": "", "page_is_contact_us": false }, "notallowedIDs": [  ], "notallowedCountriesEN": [  ], "fls_path": "diy-logo-packages", "popunder_url": "https://www.freelogoservices.com/step4?offer=1", "browser_details_name": "chrome" });
+//--><!]]>
+</script>
+  <link rel="icon" type="image/png" href="https://freelogo-assets.s3.amazonaws.com/sites/all/themes/freelogoservices/images/logos/fls_favicon.ico"><link type="text/css" rel="stylesheet" media="all" href="./logo_files/wl_fls_1677067888.css"><script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function loadImages()
+{
+      MM_preloadImages('https://freelogo-assets.s3.amazonaws.com/sites/all/themes/freelogoservices/images/en/btns/edit_logo_text_over.gif',
+    'https://freelogo-assets.s3.amazonaws.com/sites/all/themes/freelogoservices/images/en/btns/buy_now_over.gif',
+    'https://freelogo-assets.s3.amazonaws.com/sites/all/themes/freelogoservices/images/en/btns/buy_logo_over.gif',
+    'https://freelogo-assets.s3.amazonaws.com/sites/all/themes/freelogoservices/images/en/btns/proceed_checkout_over.gif',
+    'https://freelogo-assets.s3.amazonaws.com/sites/all/themes/freelogoservices/images/en/btns/create_new_logo_over.gif',
+    'https://freelogo-assets.s3.amazonaws.com/sites/all/themes/freelogoservices/images/en/btns/create_another_logo_over.gif');
+    }
+//-->
+</script>
+  
+ 
+
+<script src="./logo_files/49809.js.download" defer="defer"></script>
+
+  
+
+<script src="./logo_files/otBannerSdk.js.download" async="" type="text/javascript"></script><meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><script type="text/javascript" async="" src="./logo_files/f.txt"></script><link href="./logo_files/esw.min.css" type="text/css" rel="stylesheet"><script src="./logo_files/5103013.js.download" type="text/javascript" async="" data-ueto="ueto_e24d356189"></script><meta name="viewport" content="width=device-width, initial-scale=1"><style id="onetrust-style">#onetrust-banner-sdk{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}#onetrust-banner-sdk .onetrust-vendors-list-handler{cursor:pointer;color:#1f96db;font-size:inherit;font-weight:bold;text-decoration:none;margin-left:5px}#onetrust-banner-sdk .onetrust-vendors-list-handler:hover{color:#1f96db}#onetrust-banner-sdk:focus{outline:2px solid #000;outline-offset:-2px}#onetrust-banner-sdk a:focus{outline:2px solid #000}#onetrust-banner-sdk #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-pc-btn-handler{outline-offset:1px}#onetrust-banner-sdk.ot-bnr-w-logo .ot-bnr-logo{height:64px;width:64px}#onetrust-banner-sdk .ot-close-icon,#onetrust-pc-sdk .ot-close-icon,#ot-sync-ntfy .ot-close-icon{background-size:contain;background-repeat:no-repeat;background-position:center;height:12px;width:12px}#onetrust-banner-sdk .powered-by-logo,#onetrust-banner-sdk .ot-pc-footer-logo a,#onetrust-pc-sdk .powered-by-logo,#onetrust-pc-sdk .ot-pc-footer-logo a,#ot-sync-ntfy .powered-by-logo,#ot-sync-ntfy .ot-pc-footer-logo a{background-size:contain;background-repeat:no-repeat;background-position:center;height:25px;width:152px;display:block;text-decoration:none;font-size:.75em}#onetrust-banner-sdk .powered-by-logo:hover,#onetrust-banner-sdk .ot-pc-footer-logo a:hover,#onetrust-pc-sdk .powered-by-logo:hover,#onetrust-pc-sdk .ot-pc-footer-logo a:hover,#ot-sync-ntfy .powered-by-logo:hover,#ot-sync-ntfy .ot-pc-footer-logo a:hover{color:#565656}#onetrust-banner-sdk h3 *,#onetrust-banner-sdk h4 *,#onetrust-banner-sdk h6 *,#onetrust-banner-sdk button *,#onetrust-banner-sdk a[data-parent-id] *,#onetrust-pc-sdk h3 *,#onetrust-pc-sdk h4 *,#onetrust-pc-sdk h6 *,#onetrust-pc-sdk button *,#onetrust-pc-sdk a[data-parent-id] *,#ot-sync-ntfy h3 *,#ot-sync-ntfy h4 *,#ot-sync-ntfy h6 *,#ot-sync-ntfy button *,#ot-sync-ntfy a[data-parent-id] *{font-size:inherit;font-weight:inherit;color:inherit}#onetrust-banner-sdk .ot-hide,#onetrust-pc-sdk .ot-hide,#ot-sync-ntfy .ot-hide{display:none !important}#onetrust-banner-sdk button.ot-link-btn:hover,#onetrust-pc-sdk button.ot-link-btn:hover,#ot-sync-ntfy button.ot-link-btn:hover{text-decoration:underline;opacity:1}#onetrust-pc-sdk .ot-sdk-row .ot-sdk-column{padding:0}#onetrust-pc-sdk .ot-sdk-container{padding-right:0}#onetrust-pc-sdk .ot-sdk-row{flex-direction:initial;width:100%}#onetrust-pc-sdk [type=checkbox]:checked,#onetrust-pc-sdk [type=checkbox]:not(:checked){pointer-events:initial}#onetrust-pc-sdk [type=checkbox]:disabled+label::before,#onetrust-pc-sdk [type=checkbox]:disabled+label:after,#onetrust-pc-sdk [type=checkbox]:disabled+label{pointer-events:none;opacity:.7}#onetrust-pc-sdk #vendor-list-content{transform:translate3d(0, 0, 0)}#onetrust-pc-sdk li input[type=checkbox]{z-index:1}#onetrust-pc-sdk li .ot-checkbox label{z-index:2}#onetrust-pc-sdk li .ot-checkbox input[type=checkbox]{height:auto;width:auto}#onetrust-pc-sdk li .host-title a,#onetrust-pc-sdk li .ot-host-name a,#onetrust-pc-sdk li .accordion-text,#onetrust-pc-sdk li .ot-acc-txt{z-index:2;position:relative}#onetrust-pc-sdk input{margin:3px .1ex}#onetrust-pc-sdk .pc-logo,#onetrust-pc-sdk .ot-pc-logo{height:60px;width:180px;background-position:center;background-size:contain;background-repeat:no-repeat;display:inline-flex;justify-content:center;align-items:center}#onetrust-pc-sdk .pc-logo img,#onetrust-pc-sdk .ot-pc-logo img{max-height:100%;max-width:100%}#onetrust-pc-sdk .screen-reader-only,#onetrust-pc-sdk .ot-scrn-rdr,.ot-sdk-cookie-policy .screen-reader-only,.ot-sdk-cookie-policy .ot-scrn-rdr{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}#onetrust-pc-sdk.ot-fade-in,.onetrust-pc-dark-filter.ot-fade-in,#onetrust-banner-sdk.ot-fade-in{animation-name:onetrust-fade-in;animation-duration:400ms;animation-timing-function:ease-in-out}#onetrust-pc-sdk.ot-hide{display:none !important}.onetrust-pc-dark-filter.ot-hide{display:none !important}#ot-sdk-btn.ot-sdk-show-settings,#ot-sdk-btn.optanon-show-settings{color:#68b631;border:1px solid #68b631;height:auto;white-space:normal;word-wrap:break-word;padding:.8em 2em;font-size:.8em;line-height:1.2;cursor:pointer;-moz-transition:.1s ease;-o-transition:.1s ease;-webkit-transition:1s ease;transition:.1s ease}#ot-sdk-btn.ot-sdk-show-settings:hover,#ot-sdk-btn.optanon-show-settings:hover{color:#fff;background-color:#68b631}.onetrust-pc-dark-filter{background:rgba(0,0,0,.5);z-index:2147483646;width:100%;height:100%;overflow:hidden;position:fixed;top:0;bottom:0;left:0}@keyframes onetrust-fade-in{0%{opacity:0}100%{opacity:1}}.ot-cookie-label{text-decoration:underline}@media only screen and (min-width: 426px)and (max-width: 896px)and (orientation: landscape){#onetrust-pc-sdk p{font-size:.75em}}#onetrust-banner-sdk .banner-option-input:focus+label{outline:1px solid #000;outline-style:auto}.category-vendors-list-handler+a:focus,.category-vendors-list-handler+a:focus-visible{outline:2px solid #000}#onetrust-pc-sdk .ot-userid-title{margin-top:10px}#onetrust-pc-sdk .ot-userid-title>span,#onetrust-pc-sdk .ot-userid-timestamp>span{font-weight:700}#onetrust-pc-sdk .ot-userid-desc{font-style:italic}#onetrust-pc-sdk .ot-host-desc a{pointer-events:initial}#onetrust-pc-sdk .ot-ven-hdr>p a{position:relative;z-index:2;pointer-events:initial}#onetrust-pc-sdk .ot-vnd-serv .ot-vnd-item .ot-vnd-info a,#onetrust-pc-sdk .ot-vs-list .ot-vnd-item .ot-vnd-info a{margin-right:auto}#onetrust-pc-sdk .ot-pc-footer-logo img{width:136px;height:16px}#onetrust-banner-sdk .ot-optout-signal,#onetrust-pc-sdk .ot-optout-signal{border:1px solid #32ae88;border-radius:3px;padding:5px;margin-bottom:10px;background-color:#f9fffa;font-size:.85rem;line-height:2}#onetrust-banner-sdk .ot-optout-signal .ot-optout-icon,#onetrust-pc-sdk .ot-optout-signal .ot-optout-icon{display:inline;margin-right:5px}#onetrust-banner-sdk .ot-optout-signal svg,#onetrust-pc-sdk .ot-optout-signal svg{height:20px;width:30px;transform:scale(0.5)}#onetrust-banner-sdk .ot-optout-signal svg path,#onetrust-pc-sdk .ot-optout-signal svg path{fill:#32ae88}#onetrust-banner-sdk,#onetrust-pc-sdk,#ot-sdk-cookie-policy,#ot-sync-ntfy{font-size:16px}#onetrust-banner-sdk *,#onetrust-banner-sdk ::after,#onetrust-banner-sdk ::before,#onetrust-pc-sdk *,#onetrust-pc-sdk ::after,#onetrust-pc-sdk ::before,#ot-sdk-cookie-policy *,#ot-sdk-cookie-policy ::after,#ot-sdk-cookie-policy ::before,#ot-sync-ntfy *,#ot-sync-ntfy ::after,#ot-sync-ntfy ::before{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}#onetrust-banner-sdk div,#onetrust-banner-sdk span,#onetrust-banner-sdk h1,#onetrust-banner-sdk h2,#onetrust-banner-sdk h3,#onetrust-banner-sdk h4,#onetrust-banner-sdk h5,#onetrust-banner-sdk h6,#onetrust-banner-sdk p,#onetrust-banner-sdk img,#onetrust-banner-sdk svg,#onetrust-banner-sdk button,#onetrust-banner-sdk section,#onetrust-banner-sdk a,#onetrust-banner-sdk label,#onetrust-banner-sdk input,#onetrust-banner-sdk ul,#onetrust-banner-sdk li,#onetrust-banner-sdk nav,#onetrust-banner-sdk table,#onetrust-banner-sdk thead,#onetrust-banner-sdk tr,#onetrust-banner-sdk td,#onetrust-banner-sdk tbody,#onetrust-banner-sdk .ot-main-content,#onetrust-banner-sdk .ot-toggle,#onetrust-banner-sdk #ot-content,#onetrust-banner-sdk #ot-pc-content,#onetrust-banner-sdk .checkbox,#onetrust-pc-sdk div,#onetrust-pc-sdk span,#onetrust-pc-sdk h1,#onetrust-pc-sdk h2,#onetrust-pc-sdk h3,#onetrust-pc-sdk h4,#onetrust-pc-sdk h5,#onetrust-pc-sdk h6,#onetrust-pc-sdk p,#onetrust-pc-sdk img,#onetrust-pc-sdk svg,#onetrust-pc-sdk button,#onetrust-pc-sdk section,#onetrust-pc-sdk a,#onetrust-pc-sdk label,#onetrust-pc-sdk input,#onetrust-pc-sdk ul,#onetrust-pc-sdk li,#onetrust-pc-sdk nav,#onetrust-pc-sdk table,#onetrust-pc-sdk thead,#onetrust-pc-sdk tr,#onetrust-pc-sdk td,#onetrust-pc-sdk tbody,#onetrust-pc-sdk .ot-main-content,#onetrust-pc-sdk .ot-toggle,#onetrust-pc-sdk #ot-content,#onetrust-pc-sdk #ot-pc-content,#onetrust-pc-sdk .checkbox,#ot-sdk-cookie-policy div,#ot-sdk-cookie-policy span,#ot-sdk-cookie-policy h1,#ot-sdk-cookie-policy h2,#ot-sdk-cookie-policy h3,#ot-sdk-cookie-policy h4,#ot-sdk-cookie-policy h5,#ot-sdk-cookie-policy h6,#ot-sdk-cookie-policy p,#ot-sdk-cookie-policy img,#ot-sdk-cookie-policy svg,#ot-sdk-cookie-policy button,#ot-sdk-cookie-policy section,#ot-sdk-cookie-policy a,#ot-sdk-cookie-policy label,#ot-sdk-cookie-policy input,#ot-sdk-cookie-policy ul,#ot-sdk-cookie-policy li,#ot-sdk-cookie-policy nav,#ot-sdk-cookie-policy table,#ot-sdk-cookie-policy thead,#ot-sdk-cookie-policy tr,#ot-sdk-cookie-policy td,#ot-sdk-cookie-policy tbody,#ot-sdk-cookie-policy .ot-main-content,#ot-sdk-cookie-policy .ot-toggle,#ot-sdk-cookie-policy #ot-content,#ot-sdk-cookie-policy #ot-pc-content,#ot-sdk-cookie-policy .checkbox,#ot-sync-ntfy div,#ot-sync-ntfy span,#ot-sync-ntfy h1,#ot-sync-ntfy h2,#ot-sync-ntfy h3,#ot-sync-ntfy h4,#ot-sync-ntfy h5,#ot-sync-ntfy h6,#ot-sync-ntfy p,#ot-sync-ntfy img,#ot-sync-ntfy svg,#ot-sync-ntfy button,#ot-sync-ntfy section,#ot-sync-ntfy a,#ot-sync-ntfy label,#ot-sync-ntfy input,#ot-sync-ntfy ul,#ot-sync-ntfy li,#ot-sync-ntfy nav,#ot-sync-ntfy table,#ot-sync-ntfy thead,#ot-sync-ntfy tr,#ot-sync-ntfy td,#ot-sync-ntfy tbody,#ot-sync-ntfy .ot-main-content,#ot-sync-ntfy .ot-toggle,#ot-sync-ntfy #ot-content,#ot-sync-ntfy #ot-pc-content,#ot-sync-ntfy .checkbox{font-family:inherit;font-weight:normal;-webkit-font-smoothing:auto;letter-spacing:normal;line-height:normal;padding:0;margin:0;height:auto;min-height:0;max-height:none;width:auto;min-width:0;max-width:none;border-radius:0;border:none;clear:none;float:none;position:static;bottom:auto;left:auto;right:auto;top:auto;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;white-space:normal;background:none;overflow:visible;vertical-align:baseline;visibility:visible;z-index:auto;box-shadow:none}#onetrust-banner-sdk label:before,#onetrust-banner-sdk label:after,#onetrust-banner-sdk .checkbox:after,#onetrust-banner-sdk .checkbox:before,#onetrust-pc-sdk label:before,#onetrust-pc-sdk label:after,#onetrust-pc-sdk .checkbox:after,#onetrust-pc-sdk .checkbox:before,#ot-sdk-cookie-policy label:before,#ot-sdk-cookie-policy label:after,#ot-sdk-cookie-policy .checkbox:after,#ot-sdk-cookie-policy .checkbox:before,#ot-sync-ntfy label:before,#ot-sync-ntfy label:after,#ot-sync-ntfy .checkbox:after,#ot-sync-ntfy .checkbox:before{content:"";content:none}#onetrust-banner-sdk .ot-sdk-container,#onetrust-pc-sdk .ot-sdk-container,#ot-sdk-cookie-policy .ot-sdk-container{position:relative;width:100%;max-width:100%;margin:0 auto;padding:0 20px;box-sizing:border-box}#onetrust-banner-sdk .ot-sdk-column,#onetrust-banner-sdk .ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-column,#onetrust-pc-sdk .ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-column,#ot-sdk-cookie-policy .ot-sdk-columns{width:100%;float:left;box-sizing:border-box;padding:0;display:initial}@media(min-width: 400px){#onetrust-banner-sdk .ot-sdk-container,#onetrust-pc-sdk .ot-sdk-container,#ot-sdk-cookie-policy .ot-sdk-container{width:90%;padding:0}}@media(min-width: 550px){#onetrust-banner-sdk .ot-sdk-container,#onetrust-pc-sdk .ot-sdk-container,#ot-sdk-cookie-policy .ot-sdk-container{width:100%}#onetrust-banner-sdk .ot-sdk-column,#onetrust-banner-sdk .ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-column,#onetrust-pc-sdk .ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-column,#ot-sdk-cookie-policy .ot-sdk-columns{margin-left:4%}#onetrust-banner-sdk .ot-sdk-column:first-child,#onetrust-banner-sdk .ot-sdk-columns:first-child,#onetrust-pc-sdk .ot-sdk-column:first-child,#onetrust-pc-sdk .ot-sdk-columns:first-child,#ot-sdk-cookie-policy .ot-sdk-column:first-child,#ot-sdk-cookie-policy .ot-sdk-columns:first-child{margin-left:0}#onetrust-banner-sdk .ot-sdk-two.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-two.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-two.ot-sdk-columns{width:13.3333333333%}#onetrust-banner-sdk .ot-sdk-three.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-three.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-three.ot-sdk-columns{width:22%}#onetrust-banner-sdk .ot-sdk-four.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-four.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-four.ot-sdk-columns{width:30.6666666667%}#onetrust-banner-sdk .ot-sdk-eight.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-eight.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-eight.ot-sdk-columns{width:65.3333333333%}#onetrust-banner-sdk .ot-sdk-nine.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-nine.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-nine.ot-sdk-columns{width:74%}#onetrust-banner-sdk .ot-sdk-ten.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-ten.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-ten.ot-sdk-columns{width:82.6666666667%}#onetrust-banner-sdk .ot-sdk-eleven.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-eleven.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-eleven.ot-sdk-columns{width:91.3333333333%}#onetrust-banner-sdk .ot-sdk-twelve.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-twelve.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-twelve.ot-sdk-columns{width:100%;margin-left:0}}#onetrust-banner-sdk h1,#onetrust-banner-sdk h2,#onetrust-banner-sdk h3,#onetrust-banner-sdk h4,#onetrust-banner-sdk h5,#onetrust-banner-sdk h6,#onetrust-pc-sdk h1,#onetrust-pc-sdk h2,#onetrust-pc-sdk h3,#onetrust-pc-sdk h4,#onetrust-pc-sdk h5,#onetrust-pc-sdk h6,#ot-sdk-cookie-policy h1,#ot-sdk-cookie-policy h2,#ot-sdk-cookie-policy h3,#ot-sdk-cookie-policy h4,#ot-sdk-cookie-policy h5,#ot-sdk-cookie-policy h6{margin-top:0;font-weight:600;font-family:inherit}#onetrust-banner-sdk h1,#onetrust-pc-sdk h1,#ot-sdk-cookie-policy h1{font-size:1.5rem;line-height:1.2}#onetrust-banner-sdk h2,#onetrust-pc-sdk h2,#ot-sdk-cookie-policy h2{font-size:1.5rem;line-height:1.25}#onetrust-banner-sdk h3,#onetrust-pc-sdk h3,#ot-sdk-cookie-policy h3{font-size:1.5rem;line-height:1.3}#onetrust-banner-sdk h4,#onetrust-pc-sdk h4,#ot-sdk-cookie-policy h4{font-size:1.5rem;line-height:1.35}#onetrust-banner-sdk h5,#onetrust-pc-sdk h5,#ot-sdk-cookie-policy h5{font-size:1.5rem;line-height:1.5}#onetrust-banner-sdk h6,#onetrust-pc-sdk h6,#ot-sdk-cookie-policy h6{font-size:1.5rem;line-height:1.6}@media(min-width: 550px){#onetrust-banner-sdk h1,#onetrust-pc-sdk h1,#ot-sdk-cookie-policy h1{font-size:1.5rem}#onetrust-banner-sdk h2,#onetrust-pc-sdk h2,#ot-sdk-cookie-policy h2{font-size:1.5rem}#onetrust-banner-sdk h3,#onetrust-pc-sdk h3,#ot-sdk-cookie-policy h3{font-size:1.5rem}#onetrust-banner-sdk h4,#onetrust-pc-sdk h4,#ot-sdk-cookie-policy h4{font-size:1.5rem}#onetrust-banner-sdk h5,#onetrust-pc-sdk h5,#ot-sdk-cookie-policy h5{font-size:1.5rem}#onetrust-banner-sdk h6,#onetrust-pc-sdk h6,#ot-sdk-cookie-policy h6{font-size:1.5rem}}#onetrust-banner-sdk p,#onetrust-pc-sdk p,#ot-sdk-cookie-policy p{margin:0 0 1em 0;font-family:inherit;line-height:normal}#onetrust-banner-sdk a,#onetrust-pc-sdk a,#ot-sdk-cookie-policy a{color:#565656;text-decoration:underline}#onetrust-banner-sdk a:hover,#onetrust-pc-sdk a:hover,#ot-sdk-cookie-policy a:hover{color:#565656;text-decoration:none}#onetrust-banner-sdk .ot-sdk-button,#onetrust-banner-sdk button,#onetrust-pc-sdk .ot-sdk-button,#onetrust-pc-sdk button,#ot-sdk-cookie-policy .ot-sdk-button,#ot-sdk-cookie-policy button{margin-bottom:1rem;font-family:inherit}#onetrust-banner-sdk .ot-sdk-button,#onetrust-banner-sdk button,#onetrust-pc-sdk .ot-sdk-button,#onetrust-pc-sdk button,#ot-sdk-cookie-policy .ot-sdk-button,#ot-sdk-cookie-policy button{display:inline-block;height:38px;padding:0 30px;color:#555;text-align:center;font-size:.9em;font-weight:400;line-height:38px;letter-spacing:.01em;text-decoration:none;white-space:nowrap;background-color:rgba(0,0,0,0);border-radius:2px;border:1px solid #bbb;cursor:pointer;box-sizing:border-box}#onetrust-banner-sdk .ot-sdk-button:hover,#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:not(.ot-link-btn):hover,#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:not(.ot-link-btn):focus,#onetrust-pc-sdk .ot-sdk-button:hover,#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:not(.ot-link-btn):hover,#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:not(.ot-link-btn):focus,#ot-sdk-cookie-policy .ot-sdk-button:hover,#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:not(.ot-link-btn):hover,#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:not(.ot-link-btn):focus{color:#333;border-color:#888;opacity:.7}#onetrust-banner-sdk .ot-sdk-button:focus,#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:focus,#onetrust-pc-sdk .ot-sdk-button:focus,#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:focus,#ot-sdk-cookie-policy .ot-sdk-button:focus,#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:focus{outline:2px solid #000}#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary,#onetrust-banner-sdk button.ot-sdk-button-primary,#onetrust-banner-sdk input[type=submit].ot-sdk-button-primary,#onetrust-banner-sdk input[type=reset].ot-sdk-button-primary,#onetrust-banner-sdk input[type=button].ot-sdk-button-primary,#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary,#onetrust-pc-sdk button.ot-sdk-button-primary,#onetrust-pc-sdk input[type=submit].ot-sdk-button-primary,#onetrust-pc-sdk input[type=reset].ot-sdk-button-primary,#onetrust-pc-sdk input[type=button].ot-sdk-button-primary,#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary,#ot-sdk-cookie-policy button.ot-sdk-button-primary,#ot-sdk-cookie-policy input[type=submit].ot-sdk-button-primary,#ot-sdk-cookie-policy input[type=reset].ot-sdk-button-primary,#ot-sdk-cookie-policy input[type=button].ot-sdk-button-primary{color:#fff;background-color:#33c3f0;border-color:#33c3f0}#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary:hover,#onetrust-banner-sdk button.ot-sdk-button-primary:hover,#onetrust-banner-sdk input[type=submit].ot-sdk-button-primary:hover,#onetrust-banner-sdk input[type=reset].ot-sdk-button-primary:hover,#onetrust-banner-sdk input[type=button].ot-sdk-button-primary:hover,#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary:focus,#onetrust-banner-sdk button.ot-sdk-button-primary:focus,#onetrust-banner-sdk input[type=submit].ot-sdk-button-primary:focus,#onetrust-banner-sdk input[type=reset].ot-sdk-button-primary:focus,#onetrust-banner-sdk input[type=button].ot-sdk-button-primary:focus,#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary:hover,#onetrust-pc-sdk button.ot-sdk-button-primary:hover,#onetrust-pc-sdk input[type=submit].ot-sdk-button-primary:hover,#onetrust-pc-sdk input[type=reset].ot-sdk-button-primary:hover,#onetrust-pc-sdk input[type=button].ot-sdk-button-primary:hover,#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary:focus,#onetrust-pc-sdk button.ot-sdk-button-primary:focus,#onetrust-pc-sdk input[type=submit].ot-sdk-button-primary:focus,#onetrust-pc-sdk input[type=reset].ot-sdk-button-primary:focus,#onetrust-pc-sdk input[type=button].ot-sdk-button-primary:focus,#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary:hover,#ot-sdk-cookie-policy button.ot-sdk-button-primary:hover,#ot-sdk-cookie-policy input[type=submit].ot-sdk-button-primary:hover,#ot-sdk-cookie-policy input[type=reset].ot-sdk-button-primary:hover,#ot-sdk-cookie-policy input[type=button].ot-sdk-button-primary:hover,#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary:focus,#ot-sdk-cookie-policy button.ot-sdk-button-primary:focus,#ot-sdk-cookie-policy input[type=submit].ot-sdk-button-primary:focus,#ot-sdk-cookie-policy input[type=reset].ot-sdk-button-primary:focus,#ot-sdk-cookie-policy input[type=button].ot-sdk-button-primary:focus{color:#fff;background-color:#1eaedb;border-color:#1eaedb}#onetrust-banner-sdk input[type=text],#onetrust-pc-sdk input[type=text],#ot-sdk-cookie-policy input[type=text]{height:38px;padding:6px 10px;background-color:#fff;border:1px solid #d1d1d1;border-radius:4px;box-shadow:none;box-sizing:border-box}#onetrust-banner-sdk input[type=text],#onetrust-pc-sdk input[type=text],#ot-sdk-cookie-policy input[type=text]{-webkit-appearance:none;-moz-appearance:none;appearance:none}#onetrust-banner-sdk input[type=text]:focus,#onetrust-pc-sdk input[type=text]:focus,#ot-sdk-cookie-policy input[type=text]:focus{border:1px solid #000;outline:0}#onetrust-banner-sdk label,#onetrust-pc-sdk label,#ot-sdk-cookie-policy label{display:block;margin-bottom:.5rem;font-weight:600}#onetrust-banner-sdk input[type=checkbox],#onetrust-pc-sdk input[type=checkbox],#ot-sdk-cookie-policy input[type=checkbox]{display:inline}#onetrust-banner-sdk ul,#onetrust-pc-sdk ul,#ot-sdk-cookie-policy ul{list-style:circle inside}#onetrust-banner-sdk ul,#onetrust-pc-sdk ul,#ot-sdk-cookie-policy ul{padding-left:0;margin-top:0}#onetrust-banner-sdk ul ul,#onetrust-pc-sdk ul ul,#ot-sdk-cookie-policy ul ul{margin:1.5rem 0 1.5rem 3rem;font-size:90%}#onetrust-banner-sdk li,#onetrust-pc-sdk li,#ot-sdk-cookie-policy li{margin-bottom:1rem}#onetrust-banner-sdk th,#onetrust-banner-sdk td,#onetrust-pc-sdk th,#onetrust-pc-sdk td,#ot-sdk-cookie-policy th,#ot-sdk-cookie-policy td{padding:12px 15px;text-align:left;border-bottom:1px solid #e1e1e1}#onetrust-banner-sdk button,#onetrust-pc-sdk button,#ot-sdk-cookie-policy button{margin-bottom:1rem;font-family:inherit}#onetrust-banner-sdk .ot-sdk-container:after,#onetrust-banner-sdk .ot-sdk-row:after,#onetrust-pc-sdk .ot-sdk-container:after,#onetrust-pc-sdk .ot-sdk-row:after,#ot-sdk-cookie-policy .ot-sdk-container:after,#ot-sdk-cookie-policy .ot-sdk-row:after{content:"";display:table;clear:both}#onetrust-banner-sdk .ot-sdk-row,#onetrust-pc-sdk .ot-sdk-row,#ot-sdk-cookie-policy .ot-sdk-row{margin:0;max-width:none;display:block}.ot-sdk-cookie-policy{font-family:inherit;font-size:16px}.ot-sdk-cookie-policy.otRelFont{font-size:1rem}.ot-sdk-cookie-policy h3,.ot-sdk-cookie-policy h4,.ot-sdk-cookie-policy h6,.ot-sdk-cookie-policy p,.ot-sdk-cookie-policy li,.ot-sdk-cookie-policy a,.ot-sdk-cookie-policy th,.ot-sdk-cookie-policy #cookie-policy-description,.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group,.ot-sdk-cookie-policy #cookie-policy-title{color:dimgray}.ot-sdk-cookie-policy #cookie-policy-description{margin-bottom:1em}.ot-sdk-cookie-policy h4{font-size:1.2em}.ot-sdk-cookie-policy h6{font-size:1em;margin-top:2em}.ot-sdk-cookie-policy th{min-width:75px}.ot-sdk-cookie-policy a,.ot-sdk-cookie-policy a:hover{background:#fff}.ot-sdk-cookie-policy thead{background-color:#f6f6f4;font-weight:bold}.ot-sdk-cookie-policy .ot-mobile-border{display:none}.ot-sdk-cookie-policy section{margin-bottom:2em}.ot-sdk-cookie-policy table{border-collapse:inherit}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy{font-family:inherit;font-size:1rem}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h3,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h4,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h6,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy p,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy li,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy th,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-title{color:dimgray}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description{margin-bottom:1em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-subgroup{margin-left:1.5em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group-desc,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-table-header,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy span,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td{font-size:.9em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td span,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td a{font-size:inherit}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group{font-size:1em;margin-bottom:.6em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-title{margin-bottom:1.2em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy>section{margin-bottom:1em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy th{min-width:75px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a:hover{background:#fff}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy thead{background-color:#f6f6f4;font-weight:bold}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-mobile-border{display:none}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy section{margin-bottom:2em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-subgroup ul li{list-style:disc;margin-left:1.5em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-subgroup ul li h4{display:inline-block}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table{border-collapse:inherit;margin:auto;border:1px solid #d7d7d7;border-radius:5px;border-spacing:initial;width:100%;overflow:hidden}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table th,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table td{border-bottom:1px solid #d7d7d7;border-right:1px solid #d7d7d7}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr:last-child td{border-bottom:0px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr th:last-child,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr td:last-child{border-right:0px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-host,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-cookies-type{width:25%}.ot-sdk-cookie-policy[dir=rtl]{text-align:left}#ot-sdk-cookie-policy h3{font-size:1.5em}@media only screen and (max-width: 530px){.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) table,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) thead,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tbody,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) th,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr{display:block}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) thead tr{position:absolute;top:-9999px;left:-9999px}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr{margin:0 0 1em 0}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr:nth-child(odd),.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr:nth-child(odd) a{background:#f6f6f4}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td{border:none;border-bottom:1px solid #eee;position:relative;padding-left:50%}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td:before{position:absolute;height:100%;left:6px;width:40%;padding-right:10px}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) .ot-mobile-border{display:inline-block;background-color:#e4e4e4;position:absolute;height:100%;top:0;left:45%;width:2px}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td:before{content:attr(data-label);font-weight:bold}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) li{word-break:break-word;word-wrap:break-word}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table{overflow:hidden}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table td{border:none;border-bottom:1px solid #d7d7d7}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy thead,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy tbody,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy th,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy tr{display:block}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-host,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-cookies-type{width:auto}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy tr{margin:0 0 1em 0}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td:before{height:100%;width:40%;padding-right:10px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td:before{content:attr(data-label);font-weight:bold}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy li{word-break:break-word;word-wrap:break-word}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy thead tr{position:absolute;top:-9999px;left:-9999px;z-index:-9999}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr:last-child td{border-bottom:1px solid #d7d7d7;border-right:0px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr:last-child td:last-child{border-bottom:0px}}
+                
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h5,
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h6,
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy li,
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy p,
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy span,
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td,
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description {
+                        color: #696969;
+                    }
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy th {
+                        color: #696969;
+                    }
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group {
+                        color: #696969;
+                    }
+                    
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-title {
+                            color: #696969;
+                        }
+                    
+            
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table th {
+                            background-color: #F8F8F8;
+                        }
+                    
+            .ot-floating-button__front{background-image:url('https://cdn.cookielaw.org/logos/static/ot_persistent_cookie.png')}#ot-sdk-btn-floating.ot-floating-button{position:fixed;bottom:10px;opacity:0;width:50px;height:50px;line-height:15px;cursor:pointer;background-color:rgba(0,0,0,0);transition:all 300ms ease;z-index:2147483646;animation:otFloatingBtnIntro 800ms ease 0ms 1 forwards}#ot-sdk-btn-floating.ot-floating-button.ot-hide{display:none}#ot-sdk-btn-floating.ot-floating-button::before,#ot-sdk-btn-floating.ot-floating-button::after{text-transform:none;line-height:1;user-select:none;pointer-events:none;position:absolute;transform:scale(0);opacity:0;transition:all 300ms ease;display:block;height:auto}#ot-sdk-btn-floating.ot-floating-button::before{content:"";border:5px solid rgba(0,0,0,0);z-index:1001;top:50%;border-left-width:0;border-right-color:#333;right:calc(0em - 5px);transform:translate(10px, -50%)}#ot-sdk-btn-floating.ot-floating-button::after{content:attr(title);position:absolute;text-align:center;top:50%;left:calc(100% + 5px);transform:translate(10px, -50%);font-size:.75rem;min-width:3em;max-width:21em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:5px;border-radius:.3ch;box-shadow:0 1em 2em -0.5em rgba(0,0,0,.35);background:#333;color:#fff;z-index:2147483645}#ot-sdk-btn-floating.ot-floating-button:hover::before,#ot-sdk-btn-floating.ot-floating-button:hover::after{opacity:1}#ot-sdk-btn-floating.ot-floating-button:hover::before{transform:translate(0.5em, -50%) scale(1)}#ot-sdk-btn-floating.ot-floating-button:hover::after{transform:translate(0.5em, -50%) scale(1)}#ot-sdk-btn-floating.ot-floating-button.ot-pc-open .ot-floating-button__front{transform:rotateY(-180deg)}#ot-sdk-btn-floating.ot-floating-button.ot-pc-open .ot-floating-button__back{transform:rotateY(0)}#ot-sdk-btn-floating .ot-floating-button__front,#ot-sdk-btn-floating .ot-floating-button__back{position:absolute;width:100%;height:100%;-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:#6aaae4;border-radius:10px;box-shadow:0 4px 8px 0 rgba(0,0,0,.2);transition:transform .6s;transform-style:preserve-3d}#ot-sdk-btn-floating .ot-floating-button__front{background-color:#6aaae4;transform:rotateY(0)}#ot-sdk-btn-floating .ot-floating-button__front.custom-persistent-icon{background-position:center center;background-repeat:no-repeat;background-size:100%;border-radius:100px}#ot-sdk-btn-floating .ot-floating-button__front svg{width:30px;height:37px}#ot-sdk-btn-floating .ot-floating-button__back{background-color:#69c;transform:rotateY(-180deg)}#ot-sdk-btn-floating .ot-floating-button__back.custom-persistent-icon{background-position:center center;background-repeat:no-repeat;background-size:100%;border-radius:100px}#ot-sdk-btn-floating .ot-floating-button__back svg{width:24px;height:24px}#ot-sdk-btn-floating.ot-floating-button button{padding:0;background-color:rgba(0,0,0,0);border:0;width:100%;height:100%;cursor:pointer}@keyframes otFloatingBtnIntro{0%{opacity:0;left:-75px}100%{opacity:1;left:1%}}@keyframes otFloatingBtnImageIntro{0%{opacity:0;transform:scale(0) rotate(-270deg)}100%{opacity:100%;transform:scale(0.95) rotate(0deg)}}</style><style id="inert-style">
+[inert] {
+	pointer-events: none;
+	cursor: default;
+}
+
+[inert], [inert] * {
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+</style></head>
+<body class="page-site-1 body-theme-flat page-country-AU page-lang-en page-country-lang-AU-en page-body-diy-logo-packages page-body-p-diylogopackages page-body-diy-logo-packages-en page-body-p-diylogopackages-en new_domain_logo window_size_desktop">
+    <!-- Google Tag Manager (noscript) -->
+             <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FGVZKZ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->        <!-- LMX-8490 remove connect.facebook.net -->
+        
+
+
+<div id="custom_header_fls_header2" class="whitelabel_custom_header custom_header custom_header_fls_header2 " data-menu-id="fls_top_menu1" data-menu-lang="fls_languages_dropdown_menu" data-menu-template="navmenu5" data-menu-mobile-id="fls_top_menu1_mobile" data-menu-mobile-template="navmobile2" style="margin-bottom:0px">
+                        <div class="row position-relative mobile-hide tablet-hide zindex-2" style="height:60px;">
+        <div class="row wl_width_xl  wl_width_xxl  position-relative">
+            <div class="column four mobile-hide padding-15 padding-left margin-15 margin-vertical ">
+                                                    <div class="lmxs_element lmxs_element_ lmxs_app_container width-100 display-inlineblock lmxs lmxs_type_logo lmxs_type_general" style="" data-id="" data-type="logo" data-classes="lmxs lmxs_type_logo lmxs_type_general">
+<a class="display-inlineblock font-size-0 align-parent " href="https://www.freelogoservices.com/home-return" style="height:30px;">
+            <img src="./logo_files/1582032905_FLS-Logo-On-Site_wl.png" alt="Freelogoservices Logo" class="align-4 max-width-100  height-auto" width="244" height="39">    
+    </a>
+    
+            <input type="hidden" class="lmxs_value" data-name="" value="30px" data-type="" data-description="">
+            <input type="hidden" class="lmxs_value" data-name="" value="Freelogoservices Logo" data-type="" data-description="">
+    </div>
+
+                            </div>
+            <div class="column eight mobile-hide tablet-hide padding-15 padding-right justify-right font-size-0"><style>
+#top_sidebar div#block-fls_loggedinnav-0 {
+    display: none;
+}
+#top_sidebar .menu .submenu a {
+    background: url('https://freelogo-assets.s3.amazonaws.com/sites/all/themes/freelogoservices/images/fls_menu_sprite_gray.png');
+    background-position: bottom left;
+    background-color: #fff;
+    background-repeat: repeat-x;
+}
+#top_sidebar .menu .submenu a:hover {
+    background-color: #cecece;
+    background-position: bottom right;
+}
+.block-fls_logo_widget{
+	padding-top:3px;
+}
+#block-block-65 h2{
+	display:none;
+}
+#greeting_cards_button.gcb_logged_out{
+	margin-top: 38px;
+    right: 317px;
+}
+#top_sidebar .sign_in_nav,
+#top_nav_menu ul.first_level li:last-child,
+.block-fls_loggedinnav{
+	display:none;
+}
+.websites_nav{
+	top: 26px !important; 
+	right: 12px !important;
+}
+.myaccount_topnav {
+	text-align:right;
+	right:0px;
+	z-index:200;
+}
+/*body[class*='page-body-home'] .myaccount_topnav,*/
+body[class*='page-body-mycart'] .myaccount_topnav,
+body[class*='business-cards-options'] .myaccount_topnav{
+   text-align: right;     
+	position:absolute;
+	right:0px;
+}
+/*.page-body-home-return .myaccount_topnav  {
+    position: absolute;
+    max-width: 50%;
+    right: 0px;
+	top:30px;
+    z-index:100;
+}*/
+.myaccount_topnav a{
+	text-decoration:none;
+}
+.myaccount_topnav a span{
+	vertical_align:top;
+	display:inline-block;
+}
+.inline{
+    vertical-align:top;
+    display:inline-block;
+    padding:6px 10px;
+    font-size:1.3rem;
+}
+.menu{
+    position:relative;
+    box-sizing:border-box;
+    border:1px solid rgba(255,255,255,0);
+}
+.menu .submenu{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:-1px;
+    width:100%;
+	text-align:left;
+}
+.menu:hover{
+    border:1px solid #9B9B9B;
+    box-shadow:1px 0px 3px #9B9B9B;
+background-color:white;
+}
+.menu:hover .submenu{
+    display:block;
+    border:1px solid #9B9B9B;
+    border-top:none;
+    border-radius:0px 0px 10px 10px;
+    box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+    overflow:hidden;
+	z-index:100;
+}
+.submenu a{
+    color:#535353;
+    display:inline-block;
+    width:100%;
+    box-sizing:border-box;
+}
+.mycart{
+	padding-top:7px;
+}
+.mycart a{
+    color:#F8880E;
+    font-weight:bold;
+}
+.mycart a.nav_my_cart,
+.mycart a.nav_my_websites{
+    background-position: left center;
+}
+.mycart a span{
+    width:10px;
+    height:10px;
+    display:inline-block;
+    margin-right:4px;
+}
+.menu a{
+    color:#185d9e;
+    font-weight:bold;
+}
+.menu a span{
+   width: 20px;
+    height: 13px;
+    display: inline-block;
+    margin-left: 4px;
+background-image: url('https://freelogo-assets.s3.amazonaws.com/sites/all/themes/freelogoservices/images/list_arrow_down.png');
+	background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.menu .submenu a{
+    padding:8px 10px;
+    border-top:1px solid #9B9B9B;
+    min-height:30px;
+    background: url('https://freelogo-assets.s3.amazonaws.com/sites/all/themes/freelogoservices/images/fls_menu_sprite.png') repeat scroll left -166px transparent;
+    background-color:#fff;
+}
+.menu .submenu a:hover{
+   background:url('https://freelogo-assets.s3.amazonaws.com/sites/all/themes/freelogoservices/images/fls_menu_sprite.png') repeat scroll left -210px transparent;
+}
+
+</style>
+<script>
+$( document ).ready(function() {
+if($(".block-fls_logo_widget").length){
+$(".myaccount_topnav").css("top","3px");
+}
+
+});
+</script>
+
+<div class="myaccount_topnav">
+        		
+                    
+		        <div class="menu inline my_account">
+<a href="https://www.freelogoservices.com/myprojects"><span class="material-icons font-size-16 margin-5 margin-horizontal ">account_circle</span>My Account &amp; Projects</a>            <div class="submenu">
+                    <a href="https://www.freelogoservices.com/myprojects" class="bold" onclick="fls_ga_track_event(&#39;topnav_saved_logos_and_cards&#39;);">My Projects (1)</a>					
+					<a href="https://www.freelogoservices.com/my_account" onclick="fls_ga_track_event(&#39;topnav_my_account&#39;);">My Account Info</a>					
+					<a href="https://www.freelogoservices.com/help" onclick="fls_ga_track_event(&#39;topnav_help&#39;);">Help</a>					
+					<a href="https://www.freelogoservices.com/logout" id="topnav_sign_out" onclick="fls_ga_track_event(&#39;topnav_logout&#39;);">Sign Out</a>            </div>
+        </div>
+		<div class="mycart inline">
+<a href="https://www.freelogoservices.com/checkout" class="nav_my_cart" onclick="fls_ga_track_event(&#39;topnav_mycart&#39;);">
+<span class="material-icons font-size-16 margin-5 margin-horizontal ">shopping_cart</span>
+0</a>
+</div>
+		
+		
+</div>
+
+
+  
+<div class="flstheme_usermenu " id="">
+					<div class="col flstheme_topmenu websites">
+					<div class="flstheme_topmenu_submenu_element">
+					<a href="https://www.freelogoservices.com/website-builder" title="Make Your Website">Make Your Website</a>
+				</div>
+					<div class="flstheme_topmenu_submenu_element">
+					<a href="https://www.freelogoservices.com/google-apps" title="Set Up Your Email">Set Up Your Email</a>
+				</div>
+					<div class="flstheme_topmenu_submenu_element">
+					<a href="https://www.freelogoservices.com/domain-name-search" title="Choose Your Domain">Choose Your Domain</a>
+				</div>
+		</div>
+				<div class="col flstheme_topmenu products">
+					<div class="flstheme_topmenu_submenu_element">
+					<a href="https://www.freelogoservices.com/step1" title="Make Your Logo">Make Your Logo</a>
+				</div>
+					<div class="flstheme_topmenu_submenu_element">
+					<a href="https://www.freelogoservices.com/business-cards/step2" title="Order Business Cards" fls_ga4_designaproduct_selectors="0">Order Business Cards</a>
+				</div>
+					<div class="flstheme_topmenu_submenu_element">
+					<a href="https://www.freelogoservices.com/promotional-products" title="Order Promo Products">Order Promo Products</a>
+				</div>
+		</div>
+				<div class="col flstheme_topmenu general">
+					<div class="flstheme_topmenu_submenu_element">
+					<a id="nav_item_my_projects" href="https://www.freelogoservices.com/myprojects" title="My Projects (1)">My Projects (1)</a>
+				</div>
+					<div class="flstheme_topmenu_submenu_element">
+					<a href="https://www.freelogoservices.com/my_account" title="My Account Info">My Account Info</a>
+				</div>
+					<div class="flstheme_topmenu_submenu_element">
+					<a href="https://www.freelogoservices.com/p/faq" title="Help">Help</a>
+				</div>
+					<div class="flstheme_topmenu_submenu_element">
+					<a href="https://www.freelogoservices.com/logout" title="Sign out">Sign out</a>
+				</div>
+		</div>
+			
+	
+</div>
+
+<div class="clear"></div></div>
+
+        </div>
+    </div>
+    <div class="row position-relative desktop-hide tablet-show zindex-2 " style="height:50px;">
+        <div class="row wl_width_xl  wl_width_xxl  gutter-30 gutter-30-halfoutside tablet-gutter-30-halfoutside">
+            <div class="column eight desktop-hide tablet-show padding-5 padding-vertical">
+                                                    <div class="lmxs_element lmxs_element_ lmxs_app_container width-100 display-inlineblock lmxs lmxs_type_logo lmxs_type_general" style="" data-id="" data-type="logo" data-classes="lmxs lmxs_type_logo lmxs_type_general">
+<a class="display-inlineblock font-size-0 align-parent " href="https://www.freelogoservices.com/home-return" style="height:38px;">
+            <img src="./logo_files/1582032905_FLS-Logo-On-Site_wl.png" alt="Freelogoservices Logo" class="align-4 max-width-100  height-auto" width="244" height="39">    
+    </a>
+    
+            <input type="hidden" class="lmxs_value" data-name="" value="38px" data-type="" data-description="">
+            <input type="hidden" class="lmxs_value" data-name="" value="Freelogoservices Logo" data-type="" data-description="">
+    </div>
+
+                            </div>
+                            <div class="column four desktop-hide tablet-show position-relative">
+<div class="position-absolute justify-right" style="top:0;right:0;">
+    <nav role="navigation column twelve">
+      <div id="navmobile2_menuToggle" class="font-size-0">
+        <div class="navmobile2_hamburger">
+            <div class="navmobile2_hamburger_button activate_menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="navmobile2_menu" class="justify-left">
+            <div class="row">
+                <div class="column six navmobile2_hamburger">
+                    <div class="navmobile2_hamburger_button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="column six navmobile2_signinfo">
+                                            <a class="navmobile2_signinfo_url navmobile2_signinfo_signout" href="https://www.freelogoservices.com/logout" title="Sign Out">Sign Out</a>
+                                    </div>
+            </div>
+            <ul>
+
+                                                                <li class="" data-selected-class="color_secondary_main_background color_light_alt_hover_text_hover"><a class="navmobile2_top_element" href="https://www.freelogoservices.com/diy-logo-packages?lid=946823378#" title="Logos">Logos                                            <span class="material-icons navmobile2_arrow navmobile2_arrow_right">keyboard_arrow_right</span>
+                        <span class="material-icons navmobile2_arrow navmobile2_arrow_down">keyboard_arrow_down</span>
+                                            </a>
+                                            <ul class="navmobile2_submenu">
+                                                                                                                <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/step1" title="Logo Maker">Logo Maker</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/logo-design" title="Logo Design">Logo Design</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/create-a-logo" title="Create A Logo">Create A Logo</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/work-with-a-designer" title="Work With A Designer">Work With A Designer</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/logo-maker-or-logo-designer" title="Logo Design Options">Logo Design Options</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/free-logo-upload" title="Upload Logo">Upload Logo</a></li>
+                                                                                </ul>
+                                        </li>
+                                                                                <li class="" data-selected-class="color_secondary_main_background color_light_alt_hover_text_hover"><a class="navmobile2_top_element" href="https://www.freelogoservices.com/diy-logo-packages?lid=946823378#" title="Business Cards">Business Cards                                            <span class="material-icons navmobile2_arrow navmobile2_arrow_right">keyboard_arrow_right</span>
+                        <span class="material-icons navmobile2_arrow navmobile2_arrow_down">keyboard_arrow_down</span>
+                                            </a>
+                                            <ul class="navmobile2_submenu">
+                                                                                                                <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/business-card-maker" title="Business Card Maker">Business Card Maker</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/free-business-cards" title="Free Business Cards">Free Business Cards</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/free-business-card-templates" title="Business Card Templates">Business Card Templates</a></li>
+                                                                                </ul>
+                                        </li>
+                                                                                <li class="" data-selected-class="color_secondary_main_background color_light_alt_hover_text_hover"><a class="navmobile2_top_element" href="https://www.freelogoservices.com/diy-logo-packages?lid=946823378#" title="Marketing Products">Marketing Products                                            <span class="material-icons navmobile2_arrow navmobile2_arrow_right">keyboard_arrow_right</span>
+                        <span class="material-icons navmobile2_arrow navmobile2_arrow_down">keyboard_arrow_down</span>
+                                            </a>
+                                            <ul class="navmobile2_submenu">
+                                                                                                                <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/personalized-canvas-tote-bags" title="Personalized Canvas Tote Bags">Personalized Canvas Tote Bags</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/personalized-stainless-steel-tumblers" title="Personalized Tumbler Cups">Personalized Tumbler Cups</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/custom-banners" title="Custom Banners">Custom Banners</a></li>
+                                                                                                                                            <li class=" promotional_product_url"><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/promotional-products" title="See All Products">See All Products</a></li>
+                                                                                </ul>
+                                        </li>
+                                                                                <li class="" data-selected-class="color_secondary_main_background color_light_alt_hover_text_hover"><a class="navmobile2_top_element" href="https://www.freelogoservices.com/diy-logo-packages?lid=946823378#" title="Clothing">Clothing                                            <span class="material-icons navmobile2_arrow navmobile2_arrow_right">keyboard_arrow_right</span>
+                        <span class="material-icons navmobile2_arrow navmobile2_arrow_down">keyboard_arrow_down</span>
+                                            </a>
+                                            <ul class="navmobile2_submenu">
+                                                                                                                <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/mens-embroidered-polos" title="Men’s Embroidered Polos">Men’s Embroidered Polos</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/custom-t-shirts" title="Custom T-Shirts">Custom T-Shirts</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/tri-blend-t-shirts" title="Tri blend T-Shirts">Tri blend T-Shirts</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/custom-hoodies" title="Custom Unisex Hoodies">Custom Unisex Hoodies</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/premium-hoodies-embroidered" title="Embroidered Premium Hoodies">Embroidered Premium Hoodies</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/embroidered-hats" title="Embroidered Hats">Embroidered Hats</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/custom-beanies" title="Custom Beanies">Custom Beanies</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/vintage-trucker-hats" title="Vintage Trucker Hats">Vintage Trucker Hats</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/custom-long-sleeve-t-shirts" title="Long Sleeve T-Shirts">Long Sleeve T-Shirts</a></li>
+                                                                                                                                            <li class=" promotional_product_url"><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/promotional-products" title="See All Clothing">See All Clothing</a></li>
+                                                                                </ul>
+                                        </li>
+                                                                                <li class="" data-selected-class="color_secondary_main_background color_light_alt_hover_text_hover"><a class="navmobile2_top_element" href="https://www.freelogoservices.com/diy-logo-packages?lid=946823378#" title="Websites">Websites                                            <span class="material-icons navmobile2_arrow navmobile2_arrow_right">keyboard_arrow_right</span>
+                        <span class="material-icons navmobile2_arrow navmobile2_arrow_down">keyboard_arrow_down</span>
+                                            </a>
+                                            <ul class="navmobile2_submenu">
+                                                                                                                <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/website-builder" title="Websites">Websites</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/domain-name-search" title="Domains">Domains</a></li>
+                                                                                                                                            <li class=""><a class="navmobile2_submenu_element" href="https://www.freelogoservices.com/google-apps" title="Email">Email</a></li>
+                                                                                </ul>
+                                        </li>
+                                                                                <li class="" data-selected-class="color_secondary_main_background color_light_alt_hover_text_hover"><a class="navmobile2_top_element" href="https://www.freelogoservices.com/blog/" title="Blog">Blog                                            </a>
+                                        </li>
+                                                                                <li class="" data-selected-class="color_secondary_main_background color_light_alt_hover_text_hover"><a class="navmobile2_top_element" href="https://www.freelogoservices.com/about-us" title="About Us">About Us                                            </a>
+                                        </li>
+                                                                                <li class="" data-selected-class="color_secondary_main_background color_light_alt_hover_text_hover"><a class="navmobile2_top_element" href="https://www.freelogoservices.com/mycart" title="My Cart">My Cart                                            </a>
+                                        </li>
+                                                                                <li class="" data-selected-class="color_secondary_main_background color_light_alt_hover_text_hover"><a class="navmobile2_top_element" href="https://www.freelogoservices.com/myprojects" title="My Projects">My Projects                                            </a>
+                                        </li>
+                                                                                <li class="" data-selected-class="color_secondary_main_background color_light_alt_hover_text_hover"><a class="navmobile2_top_element" href="https://www.freelogoservices.com/my_account" title="My Account">My Account                                            </a>
+                                        </li>
+                                        </ul>
+        </div>
+      </div>
+    </nav>
+</div>
+
+
+</div>
+                    </div>
+    </div>
+            <div class="row color_secondary_main_background wl_element_topmenu tablet-hide position-relative zindex-1 ">
+            <div class="row wl_width_xl  wl_width_xxl  wl_menu_container">
+                <div class="column eleven padding-tablet-0 padding-tablet-left">
+
+
+<div class="row wl_menu wl_menu_navmenu5 display-inlineblock width-100 ">
+    <div class="column twelve">
+        <ul class="wl_menu_level_1 max-width-100 justify-left"> 
+                                        <li class="first  color_primary_main_background_hover wl_element_topmenu_element  color_secondary_main_hover_background_hover wl_menu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/step1" title="Logos" class=" color_light_alt_hover_text color_light_alt_hover_text_hover">Logos<i class="material-icons color_light_alt_hover_text">arrow_drop_down</i></a></div><ul class="wl_submenu  wl_element_submenu wl_menu_level_2 color_light_alt_hover_background box-shadow-showcase"><li class="firstcolor_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/step1" title="Logo Maker" class="">Logo Maker</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/logo-design" title="Logo Design" class="">Logo Design</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/create-a-logo" title="Create A Logo" class="">Create A Logo</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/work-with-a-designer" title="Work With A Designer" class="">Work With A Designer</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/logo-maker-or-logo-designer" title="Logo Design Options" class="">Logo Design Options</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/free-logo-upload" title="Upload Logo" class="">Upload Logo</a></div></li></ul></li>                                            <li class="  color_primary_main_background_hover wl_element_topmenu_element  color_secondary_main_hover_background_hover wl_menu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/business-cards/start" title="Business Cards" class=" color_light_alt_hover_text color_light_alt_hover_text_hover">Business Cards<i class="material-icons color_light_alt_hover_text">arrow_drop_down</i></a></div><ul class="wl_submenu  wl_element_submenu wl_menu_level_2 color_light_alt_hover_background box-shadow-showcase"><li class="firstcolor_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/business-card-maker" title="Business Card Maker" class="">Business Card Maker</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/free-business-cards" title="Free Business Cards" class="">Free Business Cards</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/free-business-card-templates" title="Business Card Templates" class="">Business Card Templates</a></div></li></ul></li>                                            <li class="  color_primary_main_background_hover wl_element_topmenu_element  color_secondary_main_hover_background_hover wl_menu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/promotional-products" title="Marketing Products" class=" color_light_alt_hover_text color_light_alt_hover_text_hover">Marketing Products<i class="material-icons color_light_alt_hover_text">arrow_drop_down</i></a></div><ul class="wl_submenu  wl_element_submenu wl_menu_level_2 color_light_alt_hover_background box-shadow-showcase"><li class="firstcolor_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/personalized-canvas-tote-bags" title="Personalized Canvas Tote Bags" class="">Personalized Canvas Tote Bags</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/personalized-stainless-steel-tumblers" title="Personalized Tumbler Cups" class="">Personalized Tumbler Cups</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/custom-banners" title="Custom Banners" class="">Custom Banners</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/promotional-products" title="See All Products" class="">See All Products</a></div></li></ul></li>                                            <li class="  color_primary_main_background_hover wl_element_topmenu_element  color_secondary_main_hover_background_hover wl_menu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/promotional-products" title="Clothing" class=" color_light_alt_hover_text color_light_alt_hover_text_hover">Clothing<i class="material-icons color_light_alt_hover_text">arrow_drop_down</i></a></div><ul class="wl_submenu  wl_element_submenu wl_menu_level_2 color_light_alt_hover_background box-shadow-showcase"><li class="firstcolor_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/mens-embroidered-polos" title="Men’s Embroidered Polos" class="">Men’s Embroidered Polos</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/custom-t-shirts" title="Custom T-Shirts" class="">Custom T-Shirts</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/tri-blend-t-shirts" title="Tri blend T-Shirts" class="">Tri blend T-Shirts</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/custom-hoodies" title="Custom Unisex Hoodies" class="">Custom Unisex Hoodies</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/premium-hoodies-embroidered" title="Embroidered Premium Hoodies" class="">Embroidered Premium Hoodies</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/embroidered-hats" title="Embroidered Hats" class="">Embroidered Hats</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/custom-beanies" title="Custom Beanies" class="">Custom Beanies</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/vintage-trucker-hats" title="Vintage Trucker Hats" class="">Vintage Trucker Hats</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/custom-long-sleeve-t-shirts" title="Long Sleeve T-Shirts" class="">Long Sleeve T-Shirts</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/promotional-products" title="See All Clothing" class="">See All Clothing</a></div></li></ul></li>                                            <li class="  color_primary_main_background_hover wl_element_topmenu_element  color_secondary_main_hover_background_hover wl_menu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/website-builder" title="Websites" class=" color_light_alt_hover_text color_light_alt_hover_text_hover">Websites<i class="material-icons color_light_alt_hover_text">arrow_drop_down</i></a></div><ul class="wl_submenu  wl_element_submenu wl_menu_level_2 color_light_alt_hover_background box-shadow-showcase"><li class="firstcolor_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/website-builder" title="Websites" class="">Websites</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/domain-name-search" title="Domains" class="">Domains</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/google-apps" title="Email" class="">Email</a></div></li></ul></li>                                            <li class="  color_primary_main_background_hover wl_element_topmenu_element  color_secondary_main_hover_background_hover wl_menu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/blog/" title="Blog" class=" color_light_alt_hover_text color_light_alt_hover_text_hover">Blog</a></div></li>                                            <li class="  color_primary_main_background_hover wl_element_topmenu_element  color_secondary_main_hover_background_hover wl_menu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/about-us" title="About Us" class=" color_light_alt_hover_text color_light_alt_hover_text_hover">About Us</a></div></li>                                    </ul>
+    </div>
+</div>
+
+</div>
+                                    <div class="column one padding-tablet-0 padding-tablet-left">
+
+
+<div class="row wl_menu wl_menu_navmenu5 display-inlineblock width-100 ">
+    <div class="column twelve">
+        <ul class="wl_menu_level_1 max-width-100 justify-left"> 
+                                        <li class="first  color_primary_main_background_hover wl_element_topmenu_element  color_secondary_main_hover_background_hover wl_menu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/" title="" class=" color_light_alt_hover_text color_light_alt_hover_text_hover">EN<i class="material-icons color_light_alt_hover_text">arrow_drop_down</i></a></div><ul class="wl_submenu  wl_element_submenu wl_menu_level_2 color_light_alt_hover_background box-shadow-showcase"><li class="firstcolor_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/?change_lang=en" title="English" class="">English</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/pt?change_lang=pt-pt" title="Português" class="">Português</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/de?change_lang=de" title="Deutsch" class="">Deutsch</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/fr?change_lang=fr" title="Français" class="">Français</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/es?change_lang=es" title="Español" class="">Español</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/nl?change_lang=nl" title="Nederlands" class="">Nederlands</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/it?change_lang=it" title="Italiano" class="">Italiano</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/tr?change_lang=tr" title="Türkçe" class="">Türkçe</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/cn?change_lang=zh-hans" title=" 简体中文" class=""> 简体中文</a></div></li><li class="color_secondary_main_hover_border_hover wl_element_topmenu_submenu_element wl_menu_submenu_element border-3px border-left wl_menu_submenu_text color_secondary_main_hover_border_hover"><div><a href="https://www.freelogoservices.com/jp?change_lang=jp" title="日本語" class="">日本語</a></div></li></ul></li>                                    </ul>
+    </div>
+</div>
+
+</div>
+                            </div>
+        </div>
+            </div>
+<style>
+    .custom_holiday_container {
+        padding-left: 15px;
+    }
+    .custom_holiday_subtitle {
+        font-size: 1.6rem;
+    }
+    .custom_holiday_close {
+        top: 0!important;
+        padding: 30px 0;
+        right: 25px;
+    }
+    .blackcyber .custom_holiday_close {
+        padding: 45px 0;
+    }
+    .window_size_mobile .custom_holiday_container {
+        padding: 0 30px!important;
+    }
+    .window_size_mobile .custom_holiday_subtitle{
+        font-size: 1.5rem!important;
+    }
+    .window_size_mobile .custom_holiday_close {
+        left: 9px;
+        right: unset!important;
+        top: 50% !important;
+        transform: translateY(-50%);
+    }
+    .header_login_btn {
+        line-height: 3rem;
+        height: 3rem;
+    }
+</style>
+<div class="wl_page max-width-100">
+    
+<div id="whitelabels_lp1">
+    <!-- Section Top Banner -->
+    <div class="row section section_banner">
+        <div class="row gutter-30 gutter-30-halfoutside tablet-gutter-30-halfoutside section_header_content wl_width_xl wl_width_xxl">
+            <div class="column three mobile-twelve section_header_logo vertical-align-middle">
+                <img src="./logo_files/1j+ojFVDOMkX9Wytexe43D6kh...KGpBVMmxnFwXs1M3EMoAJtligqh...Zp8v0+">
+            </div>
+            <div class="column nine mobile-twelve vertical-align-middle">
+                <h2 class="color_light_alt_hover_text font-size-22">Your logo design has been saved in your account!</h2>
+                <p class="color_light_alt_hover_text font-size-16 width-90">
+                    You have unlimited access to your saved designs on our site, but we also offer a variety of logo design packages for use outside of our platform. Choose a package below that best fits your needs or <a href="https://www.freelogoservices.com/step1" class="color_light_alt_hover_text create_a_logo">create another logo.</a>                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row mobile-hide wl_width_xl wl_width_xxl packages">
+                <div class="column three-w-30 package package_basic ">
+                            <div class="package_content " data-same-height="diy-packages">
+                <h2 class="font-size-22">Basic</h2>
+                <p class="color_dgrey_main_text font-size-20">Free</p><hr>
+                <h3 class="color_dgrey_main_text font-size-16 margin-24-top margin-30-bottom ">Use your logos on our platform to design custom marketing products and apparel.</h3>
+                
+                <p class="color_dgrey_main_text font-size-16">Store unlimited logo designs for as long as you like</p>
+                
+                <p class="color_dgrey_main_text font-size-16">Add your logo to a variety of promotional items, from business cards to polos</p>
+                
+                <p class="color_dgrey_main_text font-size-16">Design one-time use logos for events and more</p>
+                                            </div>
+            <div>
+                <a href="https://www.freelogoservices.com/diy-logo-upsells?lid=946823378" rel="" class="lmx_primary_button button-height-medium button-width-full font-size-20 font-bold basic_package_btn">Use My Logo</a>
+            </div>
+        </div>
+                <div class="column six-w-40 package package_essential ">
+        <div class="most_popular font-size-14 font-bold">MOST POPULAR</div>                    <div class="package_content " data-same-height="diy-packages">
+                <h2 class="font-size-22">Essential</h2>
+                <p class="color_dgrey_main_text font-size-20">AU $58.00</p><hr>
+                <h3 class="color_dgrey_main_text font-size-16 margin-24-top margin-30-bottom ">Get all of the downloadable files you need to start your business!<br>Includes:</h3>
+                
+                <p class="color_dgrey_main_text font-size-16">Everything in the Basic Package</p>
+                
+                <p class="color_dgrey_main_text font-size-16">File sizes and formats needed for use on print or digital materials</p>
+                
+                <p class="color_dgrey_main_text font-size-16">Vector design files (.svg, .eps) for manipulation in professional design software</p>
+                
+                <p class="color_dgrey_main_text font-size-16">Black and White versions of your logo for specific print needs</p>
+                
+                <p class="color_dgrey_main_text font-size-16">Lifetime storage and unlimited use of your logo files</p>
+                                            </div>
+            <div>
+                <a href="https://www.freelogoservices.com/diy-logo-packages?lid=946823378&amp;add=1" rel="" class="lmx_primary_button button-height-medium button-width-full font-size-20 font-bold ">Add to Cart</a>
+            </div>
+        </div>
+                <div class="column three-w-30 package package_premium ">
+                <div class="color_primary_main_hover_background unlimited_edits font-size-14 font-bold">Unlimited edits</div>            <div class="package_content " data-same-height="diy-packages">
+                <h2 class="font-size-22">Premium</h2>
+                <p class="color_dgrey_main_text font-size-20">AU $83.00</p><hr>
+                <h3 class="color_dgrey_main_text font-size-16 margin-24-top margin-30-bottom ">Get even more to market your business online!<br>Includes:</h3>
+                
+                <p class="color_dgrey_main_text font-size-16">Everything in the Essential Package</p>
+                
+                <p class="color_dgrey_main_text font-size-16">Increased brand flexibility with unlimited logo edits for a year from purchase</p>
+                
+                <p class="color_dgrey_main_text font-size-16">Specific logo files for promoting your business on social media</p>
+                                            </div>
+            <div>
+                <a href="https://www.freelogoservices.com/diy-logo-packages?lid=946823378&amp;add=2" rel="" class="lmx_primary_button button-height-medium button-width-full font-size-20 font-bold ">Add to Cart</a>
+            </div>
+        </div>
+            </div>
+    <!--Mobile Version-->
+    <div class="row desktop-hide mobile-show packages">
+                <div class="column twelve package package_essential">
+
+        <div class="most_popular font-size-12 font-bold">MOST POPULAR</div>                    <div class="package_mobile_content">
+                <div class="row title">
+                    <div class="column six justify-left">
+                        <h2 class="font-size-18">Essential</h2>
+                    </div>
+                    <div class="column six justify-right">
+                        <p class="color_dgrey_main_text font-size-18">AU $58.00<i class="material-icons color_dgrey_main_text view_package_details">keyboard_arrow_right</i></p>
+                    </div>
+                </div>
+                <div class="row package_mobile_information justify-left">
+                    <hr>
+                    <div class="package_mobile_content_information">
+                        <h2 class="color_dgrey_main_text font-size-14 padding-bottom padding-20">Get all of the downloadable files you need to start your business!<br>Includes:</h2>
+                                                    <p>Everything in the Basic Package</p>                            <p>File sizes and formats needed for use on print or digital materials</p>                            <p>Vector design files (.svg, .eps) for manipulation in professional design software</p>                            <p>Black and White versions of your logo for specific print needs</p>                            <p>Lifetime storage and unlimited use of your logo files</p>                                            </div>
+                    <a href="https://www.freelogoservices.com/diy-logo-packages?lid=946823378&amp;add=1" rel="" class="lmx_primary_button button-width-full button-height-medium font-size-20 margin-20-bottom ">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+                <div class="column twelve package package_premium">
+
+                <div class="color_primary_main_hover_background unlimited_edits font-size-12 font-bold">Unlimited edits</div>            <div class="package_mobile_content">
+                <div class="row title">
+                    <div class="column six justify-left">
+                        <h2 class="font-size-18">Premium</h2>
+                    </div>
+                    <div class="column six justify-right">
+                        <p class="color_dgrey_main_text font-size-18">AU $83.00<i class="material-icons color_dgrey_main_text view_package_details">keyboard_arrow_right</i></p>
+                    </div>
+                </div>
+                <div class="row package_mobile_information justify-left">
+                    <hr>
+                    <div class="package_mobile_content_information">
+                        <h2 class="color_dgrey_main_text font-size-14 padding-bottom padding-20">Get even more to market your business online!<br>Includes:</h2>
+                                                    <p>Everything in the Essential Package</p>                            <p>Increased brand flexibility with unlimited logo edits for a year from purchase</p>                            <p>Specific logo files for promoting your business on social media</p>                                            </div>
+                    <a href="https://www.freelogoservices.com/diy-logo-packages?lid=946823378&amp;add=2" rel="" class="lmx_primary_button button-width-full button-height-medium font-size-20 margin-20-bottom ">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+                <div class="column twelve package package_basic">
+
+                            <div class="package_mobile_content">
+                <div class="row title">
+                    <div class="column six justify-left">
+                        <h2 class="font-size-18">Basic</h2>
+                    </div>
+                    <div class="column six justify-right">
+                        <p class="color_dgrey_main_text font-size-18">Free<i class="material-icons color_dgrey_main_text view_package_details">keyboard_arrow_right</i></p>
+                    </div>
+                </div>
+                <div class="row package_mobile_information justify-left">
+                    <hr>
+                    <div class="package_mobile_content_information">
+                        <h2 class="color_dgrey_main_text font-size-14 padding-bottom padding-20">Use your logos on our platform to design custom marketing products and apparel.</h2>
+                                                    <p>Store unlimited logo designs for as long as you like</p>                            <p>Add your logo to a variety of promotional items, from business cards to polos</p>                            <p>Design one-time use logos for events and more</p>                                            </div>
+                    <a href="https://www.freelogoservices.com/diy-logo-upsells?lid=946823378" rel="" class="lmx_primary_button button-width-full button-height-medium font-size-20 margin-20-bottom basic_package_btn">Use My Logo</a>
+                </div>
+            </div>
+        </div>
+
+                <div class="column twelve justify-center"><p class="color_dgrey_main_text font-size-16 margin-20 margin-vertical padding-0">OR</p></div>
+        <div class="column twelve justify-center"><a href="https://www.freelogoservices.com/step1" class="lmx_primary_inverted_button button-width-full button-height-medium font-size-20 font-bold create_a_logo">Create a New Logo</a></div>
+    </div>
+</div>
+</div>
+<div id="custom_footer" class="row color_light_main_hover_background wl_footer_background justify-center padding-50 padding-top" style="margin-top:0px" data-line1="fls_general_footer_line1" data-mline1="fls_general_footer_line1" data-line2="fls_general_footer_line2" data-mline2="fls_general_footer_line2" data-line3="fls_languages_dropdown_menu" data-mline3="fls_languages_dropdown_menu" data-line4="" data-mline4="">
+    <div class="wl_width_xl margin-40 margin-bottom wl_footer_text">
+                    <div class="column twelve  padding-30 padding-bottom font-size-12"><div class="lmxs_element lmxs_element_ lmxs_app_container width-100 display-inlineblock lmxs lmxs_type_social lmxs_type_general" style="" data-id="" data-type="social" data-classes="lmxs lmxs_type_social lmxs_type_general">
+<a href="https://www.facebook.com/freelogoservices/" title="Facebook " target="_blank" rel="noopener" class="wl_footer_social_background new_window_link  icon_fb social_icon social_icon_grey color_light_alt_hover_background_hover">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="0 0 12 24">
+        <path d="M9,8H6v4H9V24h5V12h3.64L18,8H14V6.33c0-1,.19-1.33,1.11-1.33H18V0H14.19C10.6,0,9,1.58,9,4.61Z" transform="translate(-6)"></path>
+    </svg>
+    <span>Opens a new window</span>
+</a>
+<a href="https://twitter.com/freelogoservice" title="Twitter " target="_blank" rel="noopener" class="wl_footer_social_background  new_window_link  icon_tw social_icon social_icon_grey color_light_alt_hover_background_hover">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg>
+    <span>Opens a new window</span>
+</a>
+    <a href="https://www.pinterest.com/freelogoservice/" title="Pinterest " target="_blank" rel="noopener" class="new_window_link  icon_pi social_icon social_icon_grey color_light_alt_hover_background_hover wl_footer_social_background">
+        <svg data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="18.38" height="23.89" viewBox="0 0 18.38 23.89">
+            <path d="M12.57.05C7.66.05,2.81,3.33,2.81,8.63c0,3.37,1.89,5.28,3,5.28.48,0,.75-1.32.75-1.69S5.47,10.82,5.47,9a6.47,6.47,0,0,1,6.72-6.58c3.26,0,5.67,1.86,5.67,5.26,0,2.54-1,7.31-4.32,7.31a2.12,2.12,0,0,1-2.21-2.1c0-1.81,1.26-3.56,1.26-5.42,0-3.17-4.5-2.6-4.5,1.23a5.63,5.63,0,0,0,.46,2.43c-.66,2.84-2,7.08-2,10,0,.9.13,1.79.22,2.7.16.18.08.16.33.07,2.41-3.3,2.33-3.95,3.42-8.27a3.88,3.88,0,0,0,3.31,1.72c5.09,0,7.37-4.95,7.37-9.42C21.19,3.16,17.08.05,12.57.05Z" transform="translate(-2.81 -0.05)"></path>
+        </svg>
+        <span>Opens a new window</span>
+    </a>
+    <a href="https://www.linkedin.com/company/freelogoservices/" title="Linkedin " target="_blank" rel="noopener" class="new_window_link icon_li social_icon social_icon_grey color_light_alt_hover_background_hover wl_footer_social_background">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"></path></svg>
+        <span>Opens a new window</span>
+    </a>
+    <a href="https://www.youtube.com/user/freelogoservices" title="Youtube " target="_blank" rel="noopener" class="new_window_link icon_yt social_icon social_icon_grey color_light_alt_hover_background_hover wl_footer_social_background">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg>
+        <span>Opens a new window</span>
+    </a>
+<style>
+    .social_icon{
+        background:#033c69;
+        border-radius:50%;
+        display:inline-block;
+        vertical-align:top;
+        width:40px;
+        height:40px;
+        text-align:center;
+    }
+    .social_icon_grey{
+        background:#D9D9D9;
+    }
+    .social_icon svg{
+        height:16px;
+        margin-top:11px;
+    }
+    .social_icon svg path{
+        fill:#fff;
+    }
+    a.instagram_lmk:hover svg path.st0{
+        fill:url(#SVGID_0_);
+    }
+    a.instagram_lmk:hover svg path.st1{
+        fill:url(#SVGID_1_);
+    }
+    a.instagram_lmk:hover svg path.st2{
+        fill:url(#SVGID_2_);
+    }
+    @media screen and (min-width: 640px) and (max-width: 835px){
+        .instagram_lmk {
+            margin-top: 12px;
+        }
+    }
+    .social_icon.icon_fb:hover path{
+        fill:#4267b2;
+    }
+    .social_icon.icon_tw:hover path{
+        fill:#38A1F3;
+    }
+    .social_icon.icon_pi:hover path{
+        fill:#BD081C;
+    }
+    .social_icon.icon_li:hover path{
+        fill:#0077B5;
+    }
+    .social_icon.icon_yt:hover path{
+        fill:#ff0000;
+    }
+    .lmk_social_icon_bg{
+        background-color: #2BA4F0 !important;
+    }
+    .lmk_social_icon_bg:hover{
+        background-color: #FFFFFF !important;
+    }
+</style>
+    
+    </div>
+
+</div>
+                <div class="row desktop-show mobile-hide">
+                            <div class="column twelve adding-vertical">
+<div class="row">
+    <div class="column twelve line-height-30">
+                     <a href="https://www.freelogoservices.com/step1" title="Logo Maker" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Logo Maker</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/business-card-maker" title="Business Cards" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Business Cards</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/promotional-products" title="Promotional Products" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Promotional Products</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/website-builder" title="Website Builder" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Website Builder</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/domain-name-search" title="Domains" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Domains</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/google-apps" title="Email Solutions" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Email Solutions</a>            </div>
+</div>
+</div>
+                                        <div class="column twelve">
+<div class="row">
+    <div class="column twelve line-height-30">
+                     <a href="https://www.freelogoservices.com/about-us" title="About Us" class="color_dgrey_main_text   font-size-12 font-hoverunderline">About Us</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/create-a-logo" title="How It Works" class="color_dgrey_main_text   font-size-12 font-hoverunderline">How It Works</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/testimonials" title="Testimonials" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Testimonials</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/contact-support-form" title="Contact Us" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Contact Us</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/p/faq/customer/en/portal/articles" title="Help Center" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Help Center</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/logout" title="Log Out" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Log Out</a>            </div>
+</div>
+</div>
+                                        <div class="column twelve">
+                    
+<div class="row">
+    <div class="column twelve line-height-50">
+        <select class="footer_language_select  color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline border-none font-size-14" style="width:auto;">
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/?change_lang=en" selected="selected">English</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/pt?change_lang=pt-pt">Português</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/de?change_lang=de">Deutsch</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/fr?change_lang=fr">Français</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/es?change_lang=es">Español</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/nl?change_lang=nl">Nederlands</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/it?change_lang=it">Italiano</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/tr?change_lang=tr">Türkçe</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/cn?change_lang=zh-hans"> 简体中文</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/jp?change_lang=jp">日本語</option>
+                    </select>
+    </div>
+</div>
+                </div>
+                                </div>
+
+        <div class="row desktop-hide mobile-show">
+                            <div class="column twelve">
+<div class="row">
+    <div class="column twelve line-height-30">
+                     <a href="https://www.freelogoservices.com/step1" title="Logo Maker" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Logo Maker</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/business-card-maker" title="Business Cards" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Business Cards</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/promotional-products" title="Promotional Products" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Promotional Products</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/website-builder" title="Website Builder" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Website Builder</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/domain-name-search" title="Domains" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Domains</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/google-apps" title="Email Solutions" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Email Solutions</a>            </div>
+</div>
+</div>
+                                        <div class="column twelve">
+<div class="row">
+    <div class="column twelve line-height-30">
+                     <a href="https://www.freelogoservices.com/about-us" title="About Us" class="color_dgrey_main_text   font-size-12 font-hoverunderline">About Us</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/create-a-logo" title="How It Works" class="color_dgrey_main_text   font-size-12 font-hoverunderline">How It Works</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/testimonials" title="Testimonials" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Testimonials</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/contact-support-form" title="Contact Us" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Contact Us</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/p/faq/customer/en/portal/articles" title="Help Center" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Help Center</a><span class="menu_separator color_dgrey_main_text font-size-12 padding-5 padding-horizontal"> | </span>                    <a href="https://www.freelogoservices.com/logout" title="Log Out" class="color_dgrey_main_text   font-size-12 font-hoverunderline">Log Out</a>            </div>
+</div>
+</div>
+                                        <div class="column twelve">
+<div class="row">
+    <div class="column twelve line-height-50">
+        <select class="footer_language_select  color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline border-none font-size-14" style="width:auto;">
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/?change_lang=en" selected="selected">English</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/pt?change_lang=pt-pt">Português</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/de?change_lang=de">Deutsch</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/fr?change_lang=fr">Français</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/es?change_lang=es">Español</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/nl?change_lang=nl">Nederlands</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/it?change_lang=it">Italiano</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/tr?change_lang=tr">Türkçe</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/cn?change_lang=zh-hans"> 简体中文</option>
+                                            <option class="color_dgrey_main_text color_light_main_hover_background font-size-12 font-hoverunderline" value="https://www.freelogoservices.com/jp?change_lang=jp">日本語</option>
+                    </select>
+    </div>
+</div>
+</div>
+                                </div>
+
+                    
+        
+                    <div class="column twelve color_dgrey_main_text font-size-12 padding-5 padding-vertical">
+                © 2023 LogoMix Inc., A Deluxe Company.
+                <!--a href="/privacy-center" target="_blank" rel="noopener" title="Privacy" class="new_window_link color_dgrey_main_text font-size-12 font-hoverunderline privacy_policy_url">Privacy<span>Opens a new window</span></a-->                
+                <a href="https://www.freelogoservices.com/cookie-policy" target="_blank" rel="noopener" title="Cookie Policy" class="new_window_link color_dgrey_main_text font-size-12 font-hoverunderline">Cookie Policy<span>Opens a new window</span></a>
+                / <a href="https://www.freelogoservices.com/privacy/europe" target="_blank" rel="noopener" title="Deluxe European Privacy Policy" class="new_window_link color_dgrey_main_text font-size-12 font-hoverunderline">Deluxe European Privacy Policy<span>Opens a new window</span></a>
+                / <a href="https://www.freelogoservices.com/privacy-center" target="_blank" rel="noopener" title="Deluxe Privacy Center" class="new_window_link color_dgrey_main_text font-size-12 font-hoverunderline">Deluxe Privacy Center<span>Opens a new window</span></a>
+                / <a href="https://www.freelogoservices.com/terms" target="_blank" rel="noopener" title="Terms" class="new_window_link color_dgrey_main_text  font-size-12 font-hoverunderline">Terms<span>Opens a new window</span></a>
+                / <a href="https://www.freelogoservices.com/accessibility" target="_blank" rel="noopener" title="Accessibility" class="new_window_link color_dgrey_main_text font-size-12 font-hoverunderline">Accessibility<span>Opens a new window</span></a>
+
+                            </div>
+        
+                    <div class="column twelve color_dgrey_main_text font-size-12 padding-5 padding-vertical">
+                <a href="https://www.freelogoservices.com/privacy/california" target="_blank" rel="noopener" title="Do not sell my personal information" class="new_window_link color_dgrey_main_text font-size-12 font-bold font-underline ">Do not sell my personal information<span>Opens a new window</span></a>
+            </div>
+                <div class="column twelve color_dgrey_main_text font-size-12 padding-5 padding-vertical">
+                <!-- OptanonCookieSettingsButtonStart -->
+                <button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookies Settings</button>
+                <!-- OptanonCookieSettingsButtonEnd -->
+        </div>   
+        <div class="row desktop-hide mobile-show padding-20"></div>
+    </div>
+</div>
+
+            <div class="flsbottom">
+            <div class="block block-block" id="block-block-34">
+            <div class="content"><script type="text/plain" class="">
+$(document).ready(function(){
+$('#fls-store-payment-form input').attr('autocomplete', 'off');
+});
+
+</script></div>
+    </div>
+    <div class="block block-block" id="block-block-132">
+            <div class="content"><style>
+
+#top_nav_menu.top_nav_menu_bc_printit ul.first_level li.menu_element .menu_item_2 {
+    min-width: 125px !important;
+}
+
+#top_nav_menu.top_nav_menu_bc_printit ul.first_level li.menu_element .menu_item_3 {
+    min-width: 162px !important;
+}
+/*homepage sliders for pn and lm*/
+#aff1_slideshow .aff1_slide_container p{
+display:inline-block;
+}
+.ui-effects-wrapper{
+pointer-events:none;
+}
+</style></div>
+    </div>
+    <div class="block block-block" id="block-block-196">
+            <div class="content"><style>
+body.body-theme-flat .notice_customer_service_phone{
+margin-top:0px;
+}
+body.page-body-theme-20.body-theme-flat .row_container:first-child {
+    min-height: 342px;
+}
+html body.body-theme-flat li.print_products_element {
+    float: none;
+    display: inline-block;
+}
+html body.body-theme-flat li.print_products_element a{
+    border:none;
+}
+html body.body-theme-flat .print_products_list{
+   text-align:center;
+}
+body.body-theme-flat .thankYouBox{
+    left: 50% !important;
+    -ms-transform: translateX(-50%) !important;
+    -webkit-transform: translateX(-50%) !important;
+    transform: translateX(-50%) !important;
+}
+.expro_products_group_list .expro_product_image#exp_536 .expro_product_image_ovaerlay {
+    display:none;
+}
+.expro_products_group_list .expro_product_image#exp_536 img{
+    -ms-transform: rotate(-50deg); /* IE 9 */
+    -webkit-transform: rotate(-50deg); /* Chrome, Safari, Opera */
+    transform: rotate(-50deg);
+    margin-top:90px !important;
+    height:100px;
+}
+
+</style></div>
+    </div>
+    <div class="block block-block" id="block-block-317">
+            <div class="content"><style>
+body.mobile_view.body-theme-flat .hurricane_msg{
+	height:56px;
+	line-height:2.7rem;
+}
+body.mobile_view.body-theme-flat .hurricane_msg span.msg{
+    font-size:1.3rem;
+	line-height:1.3rem;
+	padding-right:0px;
+}
+body.mobile_view.body-theme-flat .coupon-message span.close{
+	padding:5px 31px 24px 0px;
+	background-position-y:-5px;
+}
+body.mobile_view.body-theme-flat.body-coupon-message{
+	 /*margin-top: 58px !important;*/
+}
+</style></div>
+    </div>
+    <div class="block block-block" id="block-block-384">
+            <div class="content">
+<style>
+body.body-theme-flat .ie_popup_overlay{
+   /* z-index:9999998 !important;*/
+    z-index:99999989 !important;
+}
+body.body-theme-flat .ie_popup{
+    z-index:99999989 !important;
+}
+</style>
+
+<script type="text/plain" class="">
+$(document).ready(function(){
+if ($('.ie_popup').length > 0) {
+$('.thankYouBox').hide();
+$('.ie_popup').show();
+}
+});
+</script></div>
+    </div>
+        </div>
+        <div id="bottom" class="wl_footer_hidden">
+		    <div class="block block-block" id="block-block-16">
+            <div class="content"><div style="font-size:1.1rem;" class="footer-data"><a href="https://www.freelogoservices.com/privacy" target="_blank" rel="noopener" class="new_window_link" title="Privacy Policy">Privacy Policy<span>Opens a new window</span></a> | 
+<a href="https://www.freelogoservices.com/terms" target="_blank" rel="noopener" class="new_window_link" title="Terms of Use">Terms of Use<span>Opens a new window</span></a></div>
+</div>
+    </div>
+    <div class="block block-block" id="block-block-15">
+            <div class="content"><div style="font-size:1.1rem;margin-top:2px;" class="footer-data">© 2023, <a href="https://www.logomix.com/" class="new_window_link" target="_blank" rel="nofollow noopener">LogoMix Inc.<span>Opens a new window</span></a> All Rights Reserved. FreeLogoServices.com™
+</div>
+</div>
+    </div>
+    <div class="block block-block" id="block-block-379">
+            <div class="content"> <style type="text/css">
+     .embeddedServiceHelpButton .helpButton .uiButton {
+         background-color: #005290;
+         font-family: "Arial", sans-serif;
+         font-size:1.4rem;
+     }
+     .embeddedServiceHelpButton .helpButton .uiButton:focus {
+         outline: 1px solid #005290;
+     }
+     .embeddedServiceHelpButton .uiButton .helpButtonLabel{
+         color:#fff;
+     }
+     .embeddedServiceHelpButton .uiButton .helpButtonLabel .message{
+         font-size:1.4rem;
+     }
+     .embeddedServiceSidebarHeader .headerText,
+     .embeddedServiceSidebarHeader #headerTextLabel{
+         padding: 0px !important;
+         color: #fff !important;
+         font-size: 1.4rem !important;
+     }
+
+     .sidebarBody div, .sidebarBody span{
+         font-size:1.4rem;
+     }
+</style>
+
+
+<script>
+        function fls_ga4_event_initiateChat(){
+            dataLayer=dataLayer || [];
+            dataLayer.push({
+                'event': 'initiateChat',
+                'supportIssue': 'Business Email',
+                'userId': Drupal.settings.fls_ga4_data["userId"], //A unicode or User CRM ID
+                'userStatus'  :  Drupal.settings.fls_ga4_data["userStatus"],
+                'userCategory' : Drupal.settings.fls_ga4_data["userCategory"]
+                });
+        }	
+    var initESW = function(gslbBaseURL) {
+		embedded_svc.settings.displayHelpButton = true; //Or false
+		embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
+
+		//embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
+		//embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
+
+		//embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
+		//embedded_svc.settings.storageDomain = 'yourdomain.com'; //(Sets the domain for your deployment so that visitors can navigate subdomains during a chat session)
+
+		// Settings for Chat
+		//embedded_svc.settings.directToButtonRouting = function(prechatFormData) {
+			// Dynamically changes the button ID based on what the visitor enters in the pre-chat form.
+			// Returns a valid button ID.
+		//};
+		embedded_svc.settings.prepopulatedPrechatFields = {
+                    FirstName: '',
+                    LastName: '',
+                    Email: 'nagra_sukhjinder@yahoo.com',
+                    Short_Description_of_Issue__c: ''
+                    
+                }; //Sets the auto-population of pre-chat form fields
+		//embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
+		//embedded_svc.settings.offlineSupportMinimizedText = '...'; //(Defaults to Contact Us)
+
+		embedded_svc.settings.enabledFeatures = ['LiveAgent'];
+		embedded_svc.settings.entryFeature = 'LiveAgent';
+                embedded_svc.addEventHandler("onAvailability", function(data) {
+                    if (data['isAgentAvailable']) {
+                        if (typeof live_chat_on_availability_callback == 'function') live_chat_on_availability_callback();
+                    }
+                });
+                embedded_svc.addEventHandler("onSettingsCallCompleted", function(data) {
+                    if (data['isAgentAvailable']) {
+                        if (typeof live_chat_on_availability_callback == 'function') live_chat_on_availability_callback();
+                    }
+                });
+	    embedded_svc.addEventHandler("onChatRequestSuccess", function(data) {
+			fls_ga4_event_initiateChat();
+		});
+		embedded_svc.init(
+			'https://deluxesb.my.salesforce.com',
+			'https://deluxe.secure.force.com/CustomerSupport',
+			gslbBaseURL,
+			'00DA0000000IWyn',
+			'FreeLogoServicesChat',
+			{
+				baseLiveAgentContentURL: 'https://c.la2-c2-iad.salesforceliveagent.com/content',
+				deploymentId: '5721M0000004v0Z',
+				buttonId: '5731M000000blN6',
+				baseLiveAgentURL: 'https://d.la2-c2-iad.salesforceliveagent.com/chat',
+				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I1M000000Gma9UAC_16bd35c9af0',
+				isOfflineSupportEnabled: false
+			}
+		);
+	};
+        function fls_sales_chat_init(){
+            if (!window.embedded_svc) {
+                    var s = document.createElement('script');
+                    s.setAttribute('src', 'https://deluxesb.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+                    s.onload = function() {
+                            initESW(null);
+                    };
+                    document.body.appendChild(s);
+            } else {
+                    initESW('https://service.force.com');
+            }
+        }
+</script>
+<script onload="fls_sales_chat_init()" src="./logo_files/esw.min.js.download"></script>
+</div>
+    </div>
+    <div class="block block-block" id="block-block-20">
+            <div class="content"><!-- begin SnapEngage code
+<script type="text/plain" class="flsjsdeferprocess">
+    (function() {
+        var se = document.createElement('script'); se.type = 'text/javascript'; se.async = true;
+        se.src = '//commondatastorage.googleapis.com/code.snapengage.com/js/d9a5fcca-2d61-4e11-ad2c-68a909ef41ac.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(se, s);
+    })();
+</script>
+end SnapEngage code -->
+
+<script type="text/plain" class="">
+
+
+
+
+$( document ).ready(function() {
+$("#globalHelpBtn").removeClass('display-none');
+$("#globalHelpBtn").click(function(){
+var support_centre_url;
+		var lang=Drupal.settings.lang;
+		if(lang=="") lang="en";
+else if(lang=="es-mx") lang="es";
+		else if(lang=="zh-hans" || lang=="cn") lang="zh_cn";
+		else if(lang=="jp") lang="ja";
+
+              if((Drupal.settings.baseUrl).search("logomaker.com")!=-1){					
+					switch(lang){
+						case 'en': support_centre_url="contact-us/"; break;
+						case 'pt': support_centre_url="pt/fale-com-logomaker/"; break;
+						case 'de': support_centre_url="de/logomaker-kontaktieren/"; break;
+						case 'fr': support_centre_url="fr/contactez-logomaker/"; break;
+						case 'es': support_centre_url="es/contacto-logomaker/"; break;
+						case 'nl': support_centre_url="nl/neem-contact-met-ons-op/"; break;
+						case 'it': support_centre_url="it/contatta-logomaker/"; break;
+						default: support_centre_url="faq/"; break;
+					}
+                                  support_centre_url = Drupal.settings.baseUrl + "/" + support_centre_url;
+				}
+		else if((Drupal.settings.baseUrl).search("freelogoservices")!=-1) support_centre_url="https://help.freelogoservices.com/customer/"+lang+"/portal/articles";
+                else if((Drupal.settings.baseUrl).search("deluxelogocreator")!=-1) support_centre_url="https://help.deluxelogocreator.com/customer/"+lang+"/portal/articles";
+		else if((Drupal.settings.baseUrl).search("mycorp")!=-1) support_centre_url="https://help.mycorpbrandlauncher.com/customer/"+lang+"/portal/articles";
+		else if((Drupal.settings.baseUrl).search("printingnow")!=-1) support_centre_url="https://help.printingnow.com/customer/"+lang+"/portal/articles";
+		else if((Drupal.settings.baseUrl).search("logomix")!=-1) support_centre_url="https://help.logomix.com/customer/"+lang+"/portal/articles";
+               else if((Drupal.settings.baseUrl).search("earthlinkbrandbuilder")!=-1) support_centre_url="https://help.earthlinkbrandbuilder.com/customer/"+lang+"/portal/articles";
+
+		support_centre_window=window.open(support_centre_url,'_blank');
+		if (window.focus) {support_centre_window.focus();}
+		return false;
+});
+	$("#globalHelpBtn").mouseover(function(){
+	$(this).addClass("active");});
+$("#globalHelpBtn").mouseout(function(){
+
+	$(this).removeClass("active");});
+});
+
+
+</script>
+<div id="globalHelpBtn" class="green closed">
+ <div class="border">
+  <p>Help</p>
+  <div class="clear"></div>
+ </div>
+</div>
+
+<script type="text/plain" class="">
+
+var notice_img=$('#notice_package_1 .bc_notice_preview').attr('src');
+$('#notice_package_4 .bc_notice_preview').attr('src',notice_img);
+</script>
+</div>
+    </div>
+    <div class="block block-block" id="block-block-410">
+            <div class="content"><script type="text/plain" class="">
+$(document).on('mouseover', '#onetrust-policy-text a, #ot-pc-content a', function(){
+    var href = $(this).attr('href');
+	if (href == 'https://www.deluxe.com/policy/deluxe-cookies-policy/' || href == 'https://cookiepedia.co.uk/giving-consent-to-cookies') {
+        var lang = window.navigator.language.split('-');
+		var langs = ['de', 'es', 'fr', 'it', 'pt', 'nl'];
+		if (langs.indexOf(lang[0]) === -1) 
+			lang = '';
+		else
+			lang = '/'+lang[0];
+        var new_href = window.location.origin + lang + '/cookie-policy';
+        $(this).attr('href', new_href);
+    }
+});
+</script></div>
+    </div>
+  		<br>
+
+  		    </div><script id="common-script" type="text/javascript" src="./logo_files/common.min.js.download"></script>
+
+  
+
+
+
+<script type="text/javascript">
+    var inside_iframe = false;
+    if(typeof is_inside_iframe == 'function')
+        inside_iframe = is_inside_iframe();
+    if(inside_iframe)
+        $('#body_wix_container').addClass('body_wix_container');
+    //console.log('inside iframe: ' + inside_iframe );
+</script>
+				
+
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5103013"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img alt="Bing Pixel" src="//bat.bing.com/action/0?ti=5103013&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>             
+
+
+ 
+<script type="text/javascript">
+$(document).ready(function(){
+$('#fls-store-payment-form input').attr('autocomplete', 'off');
+});
+
+</script><script type="text/javascript">
+$(document).ready(function(){
+if ($('.ie_popup').length > 0) {
+$('.thankYouBox').hide();
+$('.ie_popup').show();
+}
+});
+</script><script type="text/javascript">
+
+
+
+
+$( document ).ready(function() {
+$("#globalHelpBtn").removeClass('display-none');
+$("#globalHelpBtn").click(function(){
+var support_centre_url;
+		var lang=Drupal.settings.lang;
+		if(lang=="") lang="en";
+else if(lang=="es-mx") lang="es";
+		else if(lang=="zh-hans" || lang=="cn") lang="zh_cn";
+		else if(lang=="jp") lang="ja";
+
+              if((Drupal.settings.baseUrl).search("logomaker.com")!=-1){					
+					switch(lang){
+						case 'en': support_centre_url="contact-us/"; break;
+						case 'pt': support_centre_url="pt/fale-com-logomaker/"; break;
+						case 'de': support_centre_url="de/logomaker-kontaktieren/"; break;
+						case 'fr': support_centre_url="fr/contactez-logomaker/"; break;
+						case 'es': support_centre_url="es/contacto-logomaker/"; break;
+						case 'nl': support_centre_url="nl/neem-contact-met-ons-op/"; break;
+						case 'it': support_centre_url="it/contatta-logomaker/"; break;
+						default: support_centre_url="faq/"; break;
+					}
+                                  support_centre_url = Drupal.settings.baseUrl + "/" + support_centre_url;
+				}
+		else if((Drupal.settings.baseUrl).search("freelogoservices")!=-1) support_centre_url="https://help.freelogoservices.com/customer/"+lang+"/portal/articles";
+                else if((Drupal.settings.baseUrl).search("deluxelogocreator")!=-1) support_centre_url="https://help.deluxelogocreator.com/customer/"+lang+"/portal/articles";
+		else if((Drupal.settings.baseUrl).search("mycorp")!=-1) support_centre_url="https://help.mycorpbrandlauncher.com/customer/"+lang+"/portal/articles";
+		else if((Drupal.settings.baseUrl).search("printingnow")!=-1) support_centre_url="https://help.printingnow.com/customer/"+lang+"/portal/articles";
+		else if((Drupal.settings.baseUrl).search("logomix")!=-1) support_centre_url="https://help.logomix.com/customer/"+lang+"/portal/articles";
+               else if((Drupal.settings.baseUrl).search("earthlinkbrandbuilder")!=-1) support_centre_url="https://help.earthlinkbrandbuilder.com/customer/"+lang+"/portal/articles";
+
+		support_centre_window=window.open(support_centre_url,'_blank');
+		if (window.focus) {support_centre_window.focus();}
+		return false;
+});
+	$("#globalHelpBtn").mouseover(function(){
+	$(this).addClass("active");});
+$("#globalHelpBtn").mouseout(function(){
+
+	$(this).removeClass("active");});
+});
+
+
+</script><script type="text/javascript">
+
+var notice_img=$('#notice_package_1 .bc_notice_preview').attr('src');
+$('#notice_package_4 .bc_notice_preview').attr('src',notice_img);
+</script><script type="text/javascript">
+$(document).on('mouseover', '#onetrust-policy-text a, #ot-pc-content a', function(){
+    var href = $(this).attr('href');
+	if (href == 'https://www.deluxe.com/policy/deluxe-cookies-policy/' || href == 'https://cookiepedia.co.uk/giving-consent-to-cookies') {
+        var lang = window.navigator.language.split('-');
+		var langs = ['de', 'es', 'fr', 'it', 'pt', 'nl'];
+		if (langs.indexOf(lang[0]) === -1) 
+			lang = '';
+		else
+			lang = '/'+lang[0];
+        var new_href = window.location.origin + lang + '/cookie-policy';
+        $(this).attr('href', new_href);
+    }
+});
+</script><span id="spanCalculateTextWidth" style="position: absolute; top: 0px; opacity: 0; left: -2000px;"></span><script id="liveagent-esw-script" type="text/javascript" src="./logo_files/liveagent.esw.min.js.download"></script><div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon84081648793"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon943986466852" width="0" height="0" alt="" src="./logo_files/0"></div><form id="fileUploadForm" enctype="multipart/form-data" method="post" target="fileUploadIframe"><input type="file" id="fileSelector" name="file" style="display: none;"><input name="filename" type="hidden"></form><iframe id="fileUploadIframe" name="fileUploadIframe" title="FileUploadFrame" style="display: none;" src="./logo_files/saved_resource.html"></iframe><div id="onetrust-consent-sdk"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div><div id="ot-sdk-btn-floating" title="Cookies Settings" class="ot-floating-button"><div class="ot-floating-button__front custom-persistent-icon"><button type="button" class="ot-floating-button__open" aria-label="Open Preferences"></button></div><div class="ot-floating-button__back custom-persistent-icon"><button type="button" class="ot-floating-button__close" aria-label="Close Preferences" aria-hidden="true"><!--?xml version="1.0" encoding="UTF-8"?--> <svg role="presentation" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Banner_02" class="ot-floating-button__svg-fill" transform="translate(-318.000000, -725.000000)" fill="#ffffff" fill-rule="nonzero"><g id="Group-2" transform="translate(305.000000, 712.000000)"><g id="icon/16px/white/close"><polygon id="Line1" points="13.3333333 14.9176256 35.0823744 36.6666667 36.6666667 35.0823744 14.9176256 13.3333333"></polygon><polygon id="Line2" transform="translate(25.000000, 25.000000) scale(-1, 1) translate(-25.000000, -25.000000) " points="13.3333333 14.9176256 35.0823744 36.6666667 36.6666667 35.0823744 14.9176256 13.3333333"></polygon></g></g></g></g></svg></button></div></div></div><iframe id="esw_storage_iframe" src="./logo_files/esw.html" title="Live Chat Metadata" style="display: none;"></iframe><script type="text/javascript" src="./logo_files/EmbeddedServiceConfig.jsonp"></script><script id="invite-esw-script" type="text/javascript" src="./logo_files/invite.esw.min.js.download"></script><div class="embeddedServiceHelpButton"><div class="helpButton"><button class="uiButton helpButtonDisabled" href="javascript:void(0)" aria-disabled="true"><span class="embeddedServiceIcon" aria-hidden="true" data-icon="" style="display: inline-block;"></span><span class="helpButtonLabel" id="helpButtonSpan" aria-live="polite" aria-atomic="true"><span class="assistiveText">Live chat:</span><span class="message">Agent Offline</span></span></button></div></div><script id="inert-script" type="text/javascript" src="./logo_files/inert.min.js.download"></script><script type="text/javascript" src="./logo_files/EmbeddedServiceConfig(1).jsonp"></script></body></html>

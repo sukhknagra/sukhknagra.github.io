@@ -3,10 +3,11 @@ import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import ProjectDisplay from './pages/ProjectDisplay';
+import BmiCalc from './pages/BmiCalc';
 import Experience from './pages/Experience';
-import Education from './pages/Education';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Education from './pages/Education';
 function App() {
   return (
     <div className="App">
@@ -16,8 +17,9 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/project/:id' element={<ProjectDisplay/>}/>
+          <Route path='/bmicalc' element={<BmiCalc/>}/>
+          <Route path='/education' element={<Education/>}/>          
           <Route path='/experience' element={<Experience/>}/>
-          <Route path='/education' element={<Education/>}/>
           
 
         </Routes>
