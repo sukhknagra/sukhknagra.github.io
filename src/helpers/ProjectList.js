@@ -11,7 +11,7 @@ export const ProjectList = [
         name: "Bmi Calculator",
          image: Bmi ,
         skills:"JavaScript, HTML, CSS",
-        link :<a href='/BmiCalc'  rel=""> Click here</a>
+        link :<a href='/bmicalc'  rel=""> Click here</a>
         
     },
     {
