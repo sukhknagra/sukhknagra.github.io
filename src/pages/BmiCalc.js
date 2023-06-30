@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+
 import "../styles/BmiCalc.css";
-export default function App() {
+export default function BmiCalc() {
   const [height, setHeight] = useState(0);
   const [mass, setMass] = useState(0);
   const [bmi, setBmi] = useState(0);
