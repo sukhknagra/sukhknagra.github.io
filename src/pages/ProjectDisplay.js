@@ -16,9 +16,7 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <p>
-        <b>Project</b> {project.link}
-      </p>
+     <p> {project.link}</p>
       
      
     </div>
