@@ -1,6 +1,7 @@
 import Bmi from "../assets/bmi.png";
 import Cflipper from "../assets/CF.jpg";
 import Counter from "../assets/counter.png";
+//import { Link } from "react-router-dom";
 //import BmiCalc from "../pages/BmiCalc";
 
 //import { useNavigate } from "react-router-dom";
