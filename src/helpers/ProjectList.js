@@ -16,13 +16,14 @@ export const ProjectList = [
         name: "Bmi Calculator",
          image: Bmi ,
         skills:"JavaScript, HTML, CSS",
-        link : <Link to="/bmicalc" rel=""> Click me </Link>
+        link : <Link to="/bmicalc" rel=""> Click here </Link>
         
     },
     {
         name : "Color Flipper",
         image: Cflipper,
         skills: "JavaScript, HTML, CSS",
+        
        
     },
 
@@ -30,6 +31,7 @@ export const ProjectList = [
         name : "Counter",
         image: Counter,
         skills: "JavaScript, HTML, CSS",
+        link :<Link to="/counter" rel="">Click here</Link>
        
     },
 ];

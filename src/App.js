@@ -8,6 +8,7 @@ import Experience from './pages/Experience';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Education from './pages/Education';
+import Counter from './pages/Counter';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/project/:id' element={<ProjectDisplay/>}/>
           <Route path='/bmicalc' element={<BmiCalc/>}/>
+          <Route path='/counter' element={<Counter/>}/>
           <Route path='/education' element={<Education/>}/>          
           <Route path='/experience' element={<Experience/>}/>
           
