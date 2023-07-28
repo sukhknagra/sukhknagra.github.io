@@ -1,6 +1,7 @@
 import Bmi from "../assets/bmi.png";
-import Cflipper from "../assets/CF.jpg";
+import Carousel from "../assets/carousel.jpg";
 import Counter from "../assets/counter.png";
+import ShoppingList from "../assets/shopping_list.png";
 import { Link } from "react-router-dom";
 //import BmiCalc from "../pages/BmiCalc";
 
@@ -20,9 +21,10 @@ export const ProjectList = [
         
     },
     {
-        name : "Color Flipper",
-        image: Cflipper,
+        name : "Carousel",
+        image: Carousel,
         skills: "JavaScript, HTML, CSS",
+        link : <Link to="/carousel" rel=""> Click here </Link>
         
        
     },
@@ -31,7 +33,15 @@ export const ProjectList = [
         name : "Counter",
         image: Counter,
         skills: "JavaScript, HTML, CSS",
-        link :<Link to="/counter" rel="">Click here</Link>
+        link :<Link to="/counterlogin" rel="">Click here</Link>
+       
+    },
+
+    {
+        name : "Shopping List",
+        image: ShoppingList,
+        skills: "JavaScript, HTML, CSS",
+        link :<Link to="/shoppinglist" rel="">Click here</Link>
        
     },
 ];

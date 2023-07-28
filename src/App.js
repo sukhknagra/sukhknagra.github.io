@@ -9,6 +9,9 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Education from './pages/Education';
 import Counter from './pages/Counter';
+import CounterLogin from "./pages/CounterLogin";
+import ShoppingList from "./pages/ShoppingList";
+import Carousel from "./pages/Carousel";
 function App() {
   return (
     <div className="App">
@@ -20,6 +23,9 @@ function App() {
           <Route path='/project/:id' element={<ProjectDisplay/>}/>
           <Route path='/bmicalc' element={<BmiCalc/>}/>
           <Route path='/counter' element={<Counter/>}/>
+          <Route path="/counterlogin" element = {<CounterLogin/>} />
+          <Route path="/shoppinglist" element = {<ShoppingList/>}/>
+          <Route path="carousel" element = {<Carousel/>}/>
           <Route path='/education' element={<Education/>}/>          
           <Route path='/experience' element={<Experience/>}/>
           

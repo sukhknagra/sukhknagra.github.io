@@ -9,15 +9,15 @@ function Home() {
     <div className="home">
         <div className="about">
             <div className='profile'>
-             <img className="img" src= {profile}></img>
+             <img className="img" src= {profile} alt='img'></img>
              <h2> Hi, My Name is Sukhjinder Kaur</h2> <br/> <br/>
             </div> 
             <div className='prompt'>
              <p> A sotware developer with a passion for learning and creating.</p>
-             <a href='https://www.linkedin.com/in/sukh-nagra-b72342272/' target="_blank" rel=""> 
+             <a href='https://www.linkedin.com/in/sukh-nagra-b72342272/' target="_blank" rel="noreferrer"> 
              <LinkedInIcon/> </a> 
                     
-             <a href='https://github.com/sukhknagra' target="_blank" rel=""><GithubIcon/></a>
+             <a href='https://github.com/sukhknagra' target="_blank" rel="noreferrer"><GithubIcon/></a>
             </div>
         </div>
         <div className='skills'> 

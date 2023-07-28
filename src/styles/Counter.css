@@ -1,14 +1,14 @@
 .app {
-    text-align: center;
-    margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
   }
   .count {
     text-transform: uppercase;
     color: hsl(205, 86%, 17%);
   }
-.buttons  {
+.buttons button {
     
         text-transform: uppercase;
         background: transparent;
@@ -24,7 +24,25 @@
         border-radius: 0.25rem;
         margin: 0.5rem;
       }
-      .buttons:hover {
+      .buttons button:hover {
         color: #fff;;
         background: #222;;
+      }
+
+      #main {
+        margin: 10px auto;
+        width: 50%;
+        padding: 15px;    
+       
+        border-radius: 5px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      }
+      .login-detail {
+        font-size: 25px;
+      }
+      .fields input{
+       width: 50%;
+       padding: 5px 10px;
+       margin: 8px 0;
+       box-sizing: border-box;
       }

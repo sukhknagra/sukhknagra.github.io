@@ -1,0 +1,25 @@
+ .shopping
+ {
+    
+   
+    margin: 10px auto;
+   
+ }
+
+ .shopping h1 {
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #3e497a;
+    font-size: 35px; 
+ }
+
+ .shopping h2{
+    font-size: 25px;
+    color: #3e497a;
+    text-transform: uppercase;
+ }
+
+ .shopping-list {
+    margin : 10px 50px;
+    background-color: whitesmoke;
+ }

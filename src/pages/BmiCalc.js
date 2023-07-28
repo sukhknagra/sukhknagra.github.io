@@ -12,7 +12,7 @@ export default function BmiCalc() {
     if (!formValid) {
       return;
     }
-    const bmi = +mass / (+height) ** 2;
+    const bmi = +mass / (+height) / (+height) * 10000;
     setBmi(bmi);
   };
 
@@ -21,7 +21,7 @@ export default function BmiCalc() {
         <b>BMI Calculator</b> 
       <form onSubmit={calculate}>
         <div><br/>
-          <label>Height in Meters: </label>
+          <label>Height in CM: </label>
           <input value={height} onChange={(e) => setHeight(e.target.value)} />
         </div>
 
