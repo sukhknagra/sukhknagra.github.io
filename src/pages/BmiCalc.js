@@ -1,38 +1,75 @@
 import React, { useState } from "react";
 
 import "../styles/BmiCalc.css";
-export default function BmiCalc() {
-  const [height, setHeight] = useState(0);
-  const [mass, setMass] = useState(0);
-  const [bmi, setBmi] = useState(0);
 
-  const calculate = (e) => {
-    e.preventDefault();
-    const formValid = +height > 0 && +mass > 0;
-    if (!formValid) {
-      return;
-    }
-    const bmi = +mass / (+height) / (+height) * 10000;
-    setBmi(bmi);
+function BmiCalculator() {
+  const [heightValue, setHeightValue] = useState('');
+  const [weightValue, setWeightValue] = useState('');
+  const [bmiValue, setBmiValue] = useState('');
+  const [bmiMessage, setBmiMessage] = useState('');
+
+  const calculateBmi = () => {
+      if (heightValue && weightValue) {
+          const heightInMeters = heightValue / 100;
+          const bmi = (weightValue / (heightInMeters * heightInMeters)).toFixed(2);
+          setBmiValue(bmi);
+          
+
+          let message = '';
+          
+          if (bmi < 18.5 ) {
+              
+             message = 'You are Underweight'; 
+          } else if (bmi >= 18.5 && bmi < 25) {              
+              message = 'You are Normal weight';
+          } else if (bmi >= 25 && bmi < 30) {
+              message = 'You are Overweight';
+          } else {
+              message = 'You are Obese';
+          }
+          setBmiMessage(message);
+      } else {
+          setBmiValue('');
+          setBmiMessage('');
+      }
   };
 
   return (
-    <div className="wrapper">
-        <b>BMI Calculator</b> 
-      <form onSubmit={calculate}>
-        <div><br/>
-          <label>Height in CM: </label>
-          <input value={height} onChange={(e) => setHeight(e.target.value)} />
-        </div>
-
-        <div> <br/>
-          <label>Weight in Kg: </label>
-          <input value={mass} onChange={(e) => setMass(e.target.value)} />
-        </div>
-
-        <button type="submit">Calculate</button>
-      </form>
-      <p>BMI: {bmi}</p>
-    </div>
+      <div className="wrapper">
+          <h1> BMI Calculator</h1>
+          <div >
+              <label htmlFor="height">Enter Your Height (cm):</label>
+              <input
+                  type="number"
+                  id="height"
+                  value={heightValue}
+                  onChange={(e) => setHeightValue(e.target.value)}
+              />
+          </div>
+          <div>
+              <label htmlFor="weight">Enter Your Weight (kg):</label>
+              <input
+                  type="number"
+                  id="weight"
+                  value={weightValue}
+                  onChange={(e) => setWeightValue(e.target.value)}
+              />
+          </div>
+          <button onClick={calculateBmi}>
+              Click to Calculate BMI
+          </button>
+          {bmiValue && bmiMessage && (
+              <div className="result">
+                  <p>
+                      Your BMI: <span className="bmi-value">{bmiValue}</span>
+                  </p>
+                  <p>
+                      Result: <span className="bmi-message">{bmiMessage}</span>
+                  </p>
+              </div>
+          )}
+      </div>
   );
 }
+
+export default BmiCalculator;

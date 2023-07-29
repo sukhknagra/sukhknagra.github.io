@@ -13,7 +13,7 @@ function Home() {
              <h2> Hi, My Name is Sukhjinder Kaur</h2> <br/> <br/>
             </div> 
             <div className='prompt'>
-             <p> A sotware developer with a passion for learning and creating.</p>
+             <p> A developer with a passion for learning and creating. I am a team player and seeking opportunities to grow.</p>
              
                     
              <a href='https://github.com/sukhknagra' target="_blank" rel="noreferrer"><GithubIcon/></a>
