@@ -1,5 +1,5 @@
 import React from 'react'
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
+//import LinkedInIcon from "@material-ui/icons/LinkedIn";
 //import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css"
@@ -14,8 +14,7 @@ function Home() {
             </div> 
             <div className='prompt'>
              <p> A sotware developer with a passion for learning and creating.</p>
-             <a href='https://www.linkedin.com/in/sukh-nagra-b72342272/' target="_blank" rel="noreferrer"> 
-             <LinkedInIcon/> </a> 
+             
                     
              <a href='https://github.com/sukhknagra' target="_blank" rel="noreferrer"><GithubIcon/></a>
             </div>
@@ -24,14 +23,38 @@ function Home() {
             <h1>Skills</h1>
             <ol className='list'>
             <li className='item'>
-                
-            <span> HTML, CSS, React <br/></span>
-             
-            <span> MySql, DB <br/> </span>
+                HTML 
             
-            
-            <span>JavaScript, PHP, Wordpress </span>
             </li>
+            <li className='item'>
+                CSS
+            
+            </li>
+            <li className='item'>
+               JavaScript
+            
+            </li>
+            <li className='item'>
+                React
+            
+            </li>
+            <li className='item'>
+                PHP
+            
+            </li>
+            <li className='item'>
+                WordPress
+            
+            </li>
+            <li className='item'>
+                MySql
+            
+            </li>
+            <li className='item'>
+               Firebase 
+            
+            </li>
+
 
            </ol>
         </div>
