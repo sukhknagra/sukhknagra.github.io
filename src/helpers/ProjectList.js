@@ -32,7 +32,7 @@ export const ProjectList = [
     {
         name : "Counter",
         image: Counter,
-        skills: "JavaScript, HTML, CSS",
+        skills: "JavaScript, HTML, CSS, Firebase API",
         link :<Link to="/counterlogin" rel="">Click here</Link>
        
     },
