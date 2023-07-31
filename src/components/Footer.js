@@ -9,7 +9,7 @@ function Footer() {
      <div className="footer">
         <div className="socialMedia"> 
         <a href='https://www.instagram.com/' target="_blank" rel="noreferrer"><InstagramIcon/> </a>
-            <a href='https://twitter.com/SukhNagra91' target="_blank" rel="noreferrer"> <TwitterIcon/></a>
+            <a href='https://twitter.com/sknagra25' target="_blank" rel="noreferrer"> <TwitterIcon/></a>
             <a href='https://www.facebook.com/sukhjinder.k.nagra' target="_blank" rel="noreferrer"><FacebookIcon/> </a>
             <a href='https://www.linkedin.com/in/sukh-nagra-b72342272/' target="_blank" rel="noreferrer"> <LinkedInIcon/> </a>
         </div>
