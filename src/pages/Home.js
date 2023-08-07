@@ -1,5 +1,5 @@
 import React from 'react'
-//import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 //import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css"
@@ -14,9 +14,10 @@ function Home() {
             </div> 
             <div className='prompt'>
              <p> A developer with a passion for learning and creating. I am a team player and seeking opportunities to grow.</p>
-             
-                    
+                                 
              <a href='https://github.com/sukhknagra' target="_blank" rel="noreferrer"><GithubIcon/></a>
+             <a href='https://www.linkedin.com/in/sukhjinder-kaur-b72342272/' target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+             
             </div>
         </div>
         <div className='skills'> 
