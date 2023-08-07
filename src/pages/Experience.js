@@ -11,6 +11,7 @@ function Experience() {
                 
                 
 
+                
                 <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2016-2017"
@@ -18,12 +19,26 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
+             Developer
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            RD Motors Pty. Ltd. Beaudesert, QLD (4285)
+          </h4>
+          
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2022-Present"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
             Web Developer
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Jalandhar, Punjab, India
+            Marksys Pvt. Ltd., India.
           </h4>
-          <p>Worked on PHP and Wordpress projects.</p>
+          
         </VerticalTimelineElement>
         
             </VerticalTimeline>

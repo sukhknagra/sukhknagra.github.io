@@ -23,37 +23,50 @@ function Home() {
             <h1>Skills</h1>
             <ol className='list'>
             <li className='item'>
-                HTML 
+              ●	Proficient in React.js, HTML5, CSS3, PHP, and JavaScript. 
             
             </li>
+            <br/>
             <li className='item'>
-                CSS
+              ●	Strong understanding of database (MySQL).
             
             </li>
+            <br/>
             <li className='item'>
-               JavaScript
+              ●	Experience with CMS platforms such as WordPress
             
             </li>
+            <br/>
             <li className='item'>
-                React
+              ●	Ability to develop and implement Firebase Authentication
             
             </li>
+            <br/>
             <li className='item'>
-                PHP
+              ●	Excellent problem-solving and analytical skills
             
             </li>
+            <br/>
             <li className='item'>
-                WordPress
+              ●	Understanding with version control systems such as Git.
             
             </li>
+            <br/>
             <li className='item'>
-                MySql
+              ●	Strong communication and interpersonal skills.
             
             </li>
+            <br/>
             <li className='item'>
-               Firebase 
+              ●	Passionate about learning new technologies and programming languages.
             
             </li>
+            <br/>
+            <li className='item'>
+               
+              ●	Team Management
+            </li>
+            <br/>
 
 
            </ol>
