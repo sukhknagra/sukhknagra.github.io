@@ -14,7 +14,7 @@ function Experience() {
                 
                 <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2016-2017"
+          date="2022-Present"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
@@ -28,7 +28,7 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2022-Present"
+          date="2016-2017"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
